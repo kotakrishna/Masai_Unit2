@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Play</title>
+    <style>
+        body>div{
+            text-align: center;
+            width: auto;
+            margin: auto;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body id="body">
+    <div>
+        <h1>The Math Play</h1>
+        <form name="myform" action="">
+        <input id="input" type="text">
+        <br>
+        
+        <lable><h2>Select the option below</h2></lable>
+        <br>
+        <select name="" id="select">
+            <option value="Math_Floor">Math Floor</option>
+            <option value="Math_ceil">Math ceil</option>
+            <option value="Math_round">Math round</option>
+        </select>
+        <input id="submit" type="submit" ></input>
+        <h1 id="output"></h1>
+    </form>
+    </div>
+    <script>
+        function call(){
+            event.preventDefault();
+            body=document.querySelector("body")
+            select=document.getElementById("select").value
+            input=document.querySelector("input").value
+            if(!Number(input)){
+                alert(`enter the number and not ${input}`)
+            }
+            console.log(select);
+            div=document.getElementById("output")
+            if(select=="Math_Floor"){
+                div.innerText =Math.floor(input)
+                // div.htmlElement.innerText = string
+            }else if(select=="Math_ceil"){
+                
+                div.innerText=Math.ceil(input);
+            }else if(select=="Math_round"){
+                div.innerText=Math.round(input)
+            }
+            body.appendChild(div)
+            
+        }
+        input=document.querySelector("input")
+        btn=document.getElementById("submit")
+        btn.onclick=call
+    </script>
+</body>
+</html>
