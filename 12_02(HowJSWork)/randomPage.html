@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Page</title>
+    <style>
+        .red{
+            background-color: red;
+        }
+        #main{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>the image will apper below</h1>
+        <img id="box"></img>
+    </div>
+
+
+<script>
+    body=document.querySelector("body")
+main=document.getElementById("main")
+box=document.getElementById("box")
+
+function page(value){
+    if(value%3==0 && value%5!=0){
+        box.setAttribute("src","http://placekitten.com/g/200/300")
+    }else if (value%5==0 && value%3!=0){
+        box.setAttribute("src","https://pds.exblog.jp/pds/1/200706/11/50/d0101050_2381676.jpg")
+    }else if(value%5==0 &&value%3==0){
+        box.setAttribute("src","http://placekitten.com/g/200/300")
+        img=document.createElement("img")
+        img.setAttribute("src","https://pds.exblog.jp/pds/1/200706/11/50/d0101050_2381676.jpg")
+        main.appendChild(img)
+    }else{
+        body.setAttribute("class","red")
+    }
+}
+
+
+var random=Math.floor(Math.random()*100)
+console.log("the random value = "+random);
+page(random)
+    
+</script>    
+</body>
+</html>
