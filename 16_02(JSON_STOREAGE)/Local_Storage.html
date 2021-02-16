@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .middle{
+            width: 100%;
+            margin: auto;
+            margin-left:30%;
+            margin-top: 30px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+        .font{
+            font-size: 60px;
+            width: 150px;
+            margin:auto 30px ;
+        }
+        h3{
+            text-align: center;
+            font-size: 25px;
+        }
+        .red_color{
+            background-color: red;
+            font-size: 60px;
+            width: 150px;
+            margin:auto 30px
+        }
+        .green_color{
+            background-color: green;
+            font-size: 60px;
+            width: 150px;
+            margin:auto 30px
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h3>Press the "+" to increase the count and Press "-" to decrease the value</h3>
+    </div>
+    <div class="middle">
+        <button id="decrement" class="font red_color">-</button>
+    <div>
+        <h1 id="output"></h1>
+    </div>
+        <button id="increment" class="font green_color">+</button>
+    </div>
+    <script>
+        var h1= document.getElementById("output")
+        var count=localStorage.getItem("count")
+        // console.log(count);
+        h1.innerHTML=count
+        // localStorage.setItem("count","null")
+
+        function decre(){
+            // count--
+            localStorage.setItem("count",count--)
+            h1.innerHTML=localStorage.getItem("count")
+        }
+        function incre(){
+            // count++
+            localStorage.setItem("count",count++)
+            h1.innerHTML=localStorage.getItem("count")
+        }
+        
+        var inc=document.getElementById("increment")
+        var dec=document.getElementById("decrement")
+
+        dec.addEventListener("click",decre)
+        inc.addEventListener("click",incre)
+        
+    </script>
+</body>
+</html>

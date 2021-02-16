@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        button{
+            background-color: black;
+            color: white;
+            margin: 10px auto;
+            width: 200px;
+            height: 60px;
+            font-size: 20px;
+            margin: 20px auto;
+        }
+        input{
+            width: 300px;
+            height: 60px;
+            font-size: 30px;
+            margin:10px auto;
+        }
+        h3{
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a List to make</h1>
+    <div>
+        <div>
+            <label for="">The input</label>
+            <br>
+            <input type="text" name="" id="input"></div>
+        <div><button id="button">Add</button></div>
+        <div><button id="clear">Clear All</button></div>
+
+    </div>
+    <div><h5>* The Clear All button will deletes all the list and Cleans the Local Storage</h5></div>
+    <div id="for_output">
+        
+    </div>
+    
+    <script>
+        var input=document.getElementById("input")
+        var btn=document.getElementById("button")
+        var output=document.getElementById("for_output")
+        var ary=[]
+        if(localStorage.getItem("array")!=null){
+            var ne = localStorage.getItem("array").split(",");
+        for(var c=0;c<ne.length;c++){
+            ary.push(ne[c])
+        }
+        }
+        
+        
+        var present_val=""
+        btn2=document.getElementById("clear")
+        
+        var count=0;
+        function add(){
+            
+            present_val=input.value
+            localStorage.setItem("present val",present_val)
+            ary.push(localStorage.getItem("present val"))
+            localStorage.setItem("array",ary)
+
+            input.value=""
+            count++
+            
+        }
+        // console.log(ary);
+        function DOM(){
+            var h3=document.createElement("h3")
+            h3.innerHTML=localStorage.getItem("present val")
+            output.appendChild(h3)
+        }
+        if(ary.length==0){
+            alert("The list is empty")
+        }
+        if(count==0 && ary.length>=1){
+
+            for(var z=0;z<ary.length;z++){
+                var h3=document.createElement("h3")
+                h3.innerHTML=ary[z]
+                output.appendChild(h3)
+            }
+        }
+        function del(){
+            localStorage.clear()
+            ary=[]
+            var h=document.querySelectorAll("h3")
+            for( i in h){
+                // var x=document.querySelector("h3")
+                // x.remove()
+                h[i].innerHTML=""
+                // h[i].parentNode.removeChild(h[i])
+            }
+            
+
+        }
+        localStorage.setItem("array",ary)
+        btn2.addEventListener("click",del)
+        btn.addEventListener("click",add)
+        btn.addEventListener("click",DOM)
+    </script>
+</body>
+</html>
