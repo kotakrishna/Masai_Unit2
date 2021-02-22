@@ -1,0 +1,2092 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Masai School</title>
+  <meta name="description" content="Launch your new tech career from anywhere in just 7 months and pay nothing until you land a high-paying job. Attend live classes from anywhere in india" />
+  <meta name="keywords" content="online course, masai school, masai school india, javascript course, online training, react course, python course, sql course, karnataka, coding school that pays you, learn to code for free, coding bootcamp, coding bootcamp, coding bootcamps, coding bootcamp india, online bootcamps, india">
+  <meta name="robots" content="index, follow">
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Masai School">
+  <meta itemprop="description" content="Launch your new tech career from anywhere in just 7 months and pay nothing until you land a high-paying job. Attend live classes from anywhere in india">
+  <meta itemprop="image" content="https://d27028dliefpk3.cloudfront.net/static/covers/masai-school.jpeg" />
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:type" content="website">
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Masai School" />
+  <meta property="og:description" content="Launch your new tech career from anywhere in just 7 months and pay nothing until you land a high-paying job. Attend live classes from anywhere in india" />
+  <meta property="og:url" content="https://www.masaischool.com" />
+  <meta property="og:image" content="https://d27028dliefpk3.cloudfront.net/static/covers/masai-school.jpeg" />
+  <meta property="og:site_name" content="masaischool" />
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@masaischool" />
+  <meta name="twitter:url" content="https://www.masaischool.com">
+  <meta name="twitter:title" content="Masai School">
+  <meta name="twitter:description" content="Launch your new tech career from anywhere in just 7 months and pay nothing until you land a high-paying job. Attend live classes from anywhere in india">
+  <meta name="twitter:image" content="https://d27028dliefpk3.cloudfront.net/static/covers/masai-school.jpeg" />
+  <link rel="shortcut icon" href="https://d27028dliefpk3.cloudfront.net/static/favicon/favicon.ico">
+  <link rel="icon" sizes="32x32" href="https://d27028dliefpk3.cloudfront.net/static/favicon/favicon-32x32.png">
+  <link rel="icon" sizes="16x16" href="https://d27028dliefpk3.cloudfront.net/static/favicon/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="application-name" content="Masai School" />
+  <meta name="theme-color" content="#ffffff">
+  <meta name="full_width" value="true" />
+  <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+  <link rel="preconnect" href="//www.google-analytics.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://d27028dliefpk3.cloudfront.net" crossorigin>
+  <link rel="preconnect" href="https://www.masaischool.com/">
+  <link rel="canonical" href="https://www.masaischool.com/" />
+  <link rel="stylesheet" type="text/css" href="/public/style.min.css ">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" />
+  <script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine-ie11.min.js" defer></script>
+  <style>
+  html {
+    scroll-padding-top: calc(64px + 1.5rem)
+  }
+
+  *:not([href])[id]::before {
+    content: ' ';
+    display: block;
+    height: calc(64px + 1.5rem);
+    margin-top: calc(-64px - 1.5rem);
+    pointer-events: none;
+    visibility: hidden
+  }
+
+  html,
+  body {
+    background: #172329;
+    font: 400 12px / 1.5 DM Sans, Segoe UI, system-ui, -apple-system, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+    margin: 0;
+    overflow-wrap: break-word;
+    padding: 0;
+    word-wrap: break-word
+  }
+
+  @media (min-width: 241px) {
+
+    html,
+    body {
+      font: 400 14px / 1.5 DM Sans, Segoe UI, system-ui, -apple-system, sans-serif
+    }
+  }
+
+  @media (min-width: 321px) {
+
+    html,
+    body {
+      font: 400 16px / 1.5 DM Sans, Segoe UI, system-ui, -apple-system, sans-serif;
+    }
+  }
+
+  /*
+  Make image rasterization lazy. This means that e.g. the cost of the
+  blurry placeholder is never paid if images load before entering
+  the viewport.
+  Context
+  - https://web.dev/content-visibility/#skipping-rendering-work-with-content-visibility
+ */
+  section {
+    content-visibility: auto;
+    contain-intrinsic-size: 100px 1000px;
+  }
+
+  [x-cloak] {
+    display: none !important;
+  }
+
+  .grid-indigo {
+    background-image: radial-gradient(#172329 2px, transparent 2px);
+    background-size: 16px 16px;
+  }
+
+  img {
+    aspect-ratio: attr(width) / attr(height);
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 0 !important;
+  }
+
+  .fnt-sze {
+    font-size: 60px;
+    /* line-height: 45px; */
+  }
+
+  .scroll {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding: 1rem;
+  }
+
+  .scroll-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+
+  lite-youtube {
+    background-color: #000;
+    position: relative;
+    display: block;
+    contain: content;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    max-width: 720px;
+  }
+
+  /* gradient */
+  lite-youtube::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADGCAYAAAAT+OqFAAAAdklEQVQoz42QQQ7AIAgEF/T/D+kbq/RWAlnQyyazA4aoAB4FsBSA/bFjuF1EOL7VbrIrBuusmrt4ZZORfb6ehbWdnRHEIiITaEUKa5EJqUakRSaEYBJSCY2dEstQY7AuxahwXFrvZmWl2rh4JZ07z9dLtesfNj5q0FU3A5ObbwAAAABJRU5ErkJggg==);
+    background-position: top;
+    background-repeat: repeat-x;
+    height: 60px;
+    padding-bottom: 50px;
+    width: 100%;
+    transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+  }
+
+  /* responsive iframe with a 16:9 aspect ratio
+  thanks https://css-tricks.com/responsive-iframes/
+*/
+  lite-youtube::after {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (16 / 9));
+  }
+
+  lite-youtube>iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+  }
+
+  /* play button */
+  lite-youtube>.lty-playbtn {
+    width: 68px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+    transform: translate3d(-50%, -50%, 0);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    background-color: transparent;
+    /* YT's actual play button svg */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 68 48"><path fill="%23f00" fill-opacity="0.8" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path d="M 45,24 27,14 27,34" fill="%23fff"></path></svg>');
+    filter: grayscale(100%);
+    transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
+    border: none;
+  }
+
+  lite-youtube:hover>.lty-playbtn,
+  lite-youtube .lty-playbtn:focus {
+    filter: none;
+  }
+
+  /* Post-click styles */
+  lite-youtube.lyt-activated {
+    cursor: unset;
+  }
+
+  lite-youtube.lyt-activated::before,
+  lite-youtube.lyt-activated>.lty-playbtn {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .lyt-visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .w-loading-progress {
+    background: #3fc4ff;
+    display: block !important;
+    height: 2px;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+    z-index: 250
+  }
+
+  .w-loading-progress::before {
+    animation: loading-progress-before 2s infinite alternate-reverse ease-in-out;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), color-stop(#fff), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #fff, rgba(255, 255, 255, 0));
+    bottom: 0;
+    content: '';
+    left: 0;
+    min-width: 320px;
+    position: absolute;
+    top: 0;
+    width: 50vw
+  }
+
+  .w-loading-progress[hidden] {
+    -webkit-animation: hold-visibility .2s;
+    animation: hold-visibility .2s;
+    display: block !important;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    visibility: hidden
+  }
+  </style>
+</head>
+
+<body class="unresolved">
+  <div class="w-loading-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" hidden></div>
+  <header x-data="{ open: false }" x-cloak
+    class="top-0 lef-0 w-full z-40 bg-gradient-to-r from-darkfirefly-500 via-purplebrown-500 to-brightred-500 fixed">
+    <div class="relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 ">
+        <div class="flex justify-between items-center border-gray-100 py-2  md:justify-start md:space-x-10">
+          <div class="lg:w-0 lg:flex-1">
+            <a href="/" class="flex">
+              <img width="120" height="30" class="h-8 sm:h-10 lazyload" loading="lazy" type="image/svg+xml"
+                src="https://d27028dliefpk3.cloudfront.net/static/brand/MasaiLogo.svg"
+                data-src="https://d27028dliefpk3.cloudfront.net/static/brand/MasaiLogo.svg" alt="Masai School">
+            </a>
+          </div>
+
+          <div class="-mr-2 -my-2 md:hidden">
+            <div class="inline-flex items-center justify-start ">
+              <div class="pr-2">
+                <!-- mobile view apply now: -->
+                <a href="https://admissions.masaischool.com/auth/apply" type="button"
+                  class="applynow-btn relative inline-flex items-center px-4 py-1 border border-transparent text-sm leading-5 font-medium rounded-md text-brightred-500 bg-whitesmoke-500 hover:bg-whitesmoke-400 focus:outline-none focus:shadow-outline-brightred focus:border-whitesmoke-600 active:bg-brightred-600 transition duration-150 ease-in-out shadow-md">
+                  Apply Now
+                </a>
+              </div>
+              <!-- Mobile menu button -->
+              <button @click="open = !open"
+                class="rounded-md p-2 inline-flex items-center justify-center text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-brightred-500 unresolved"
+                x-bind:aria-expanded="open" aria-expanded="false">
+                <span class="sr-only">Open menu</span>
+                <!-- Icon when menu is closed. -->
+                <svg x-state:on="Menu open" x-state:off="Menu closed" :class="{ 'hidden': open, 'block': !open }"
+                  class="block h-6 w-6" x-description="Heroicon name: menu" xmlns="http://www.w3.org/2000/svg"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                  </path>
+                </svg>
+                <!-- Icon when menu is open. -->
+                <svg x-state:on="Menu open" x-state:off="Menu closed" :class="{ 'hidden': !open, 'block': open }"
+                  class="hidden h-6 w-6" x-description="Heroicon name: x" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="hidden lg:relative lg:z-10 lg:ml-4 lg:flex lg:items-center">
+              <button
+                class="flex-shrink-0 bg-transparent rounded-full p-1 text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brightred-500">
+                <span class="sr-only">View notifications</span>
+                <svg class="h-6 w-6" x-description="Heroicon name: bell" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <nav class="hidden md:flex space-x-10">
+            <a href="/courses"
+              class="courses text-base leading-6 font-medium text-whitesmoke-500 hover:text-whitesmoke-300 focus:outline-none focus:text-whitesmoke-900 transition ease-in-out duration-150">
+              Courses
+            </a>
+            <a href="/fees"
+              class="isa-enquiry text-base leading-6 font-medium text-whitesmoke-500 hover:text-whitesmoke-300 focus:outline-none focus:text-whitesmoke-900 transition ease-in-out duration-150">
+              Fees & ISA
+            </a>
+            <a href="/hire-masai-grads"
+              class="hire-masai-grads text-base leading-6 font-medium text-whitesmoke-500 hover:text-whitesmoke-300 focus:outline-none focus:text-whitesmoke-900 transition ease-in-out duration-150">
+              Hire Masai Grads
+            </a>
+            <a href="/faq"
+              class="faqs text-base leading-6 font-medium text-whitesmoke-500 hover:text-whitesmoke-300 focus:outline-none focus:text-whitesmoke-900 transition ease-in-out duration-150">
+              FAQ
+            </a>
+          </nav>
+          <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
+            <span class="inline-flex rounded-md shadow-sm">
+              <a href="https://admissions.masaischool.com/auth/apply"
+                class="applynow-btn relative inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-brightred-500 bg-whitesmoke-500 hover:bg-whitesmoke-400 focus:outline-none focus:shadow-outline-brightred focus:border-whitesmoke-600 active:bg-brightred-600 transition duration-150 ease-in-out">
+                Apply Now
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!--
+    Mobile menu, show/hide based on mobile menu state.
+
+    Entering: "duration-200 ease-out"
+      From: "opacity-0 scale-95"
+      To: "opacity-100 scale-100"
+    Leaving: "duration-100 ease-in"
+      From: "opacity-100 scale-100"
+      To: "opacity-0 scale-95"
+  -->
+      <div x-description="Mobile menu, toggle classes based on menu state." x-state:on="Menu open"
+        x-state:off="Menu closed" :class="{ 'block': open, 'hidden': !open }" class="hidden lg:hidden"
+        aria-label="Global" x-transition:enter="duration-150 ease-out" x-transition:enter-start="opacity-0 scale-95"
+        x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in"
+        x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95">
+        <div class="rounded-sm shadow-lg">
+          <div class="rounded-sm shadow-sm bg-swamp-500 divide-y-2 divide-gray-50">
+            <div class="pt-3 pb-3 px-5 space-y-6 ">
+              <div class="flex items-center justify-between">
+                <div>
+                </div>
+                <div class="-mr-2">
+
+                </div>
+              </div>
+              <div>
+                <nav class="grid gap-y-8 w-full unresolved">
+                  <div class="mb-4 flex flex-col text-dark">
+                    <div class="item p-2 mt-1">
+                      <a href="/courses" class="courses flex items-center justify-center font-medium text-lg py-1">
+                        <h4 class="text-lightgrey-500">Courses</h4>
+                      </a>
+                    </div>
+                    <div class="item p-2 mt-1 mb-2 border-t border-lightgrey-700 border-opacity-10">
+                      <a href="/fees" class="flex items-center justify-center font-medium text-lg py-1">
+                        <h4 class="text-lightgrey-500 isa-enquiry">Fees & ISA</h4>
+                      </a>
+                    </div>
+                    <div class="item p-2 mt-1 mb-2 border-t border-lightgrey-700 border-opacity-10">
+                      <a href="/hire-masai-grads"
+                        class="hire-masai-grads flex items-center justify-center font-medium text-lg py-1">
+                        <h4 class="text-lightgrey-500 ">Hire our Grads</h4>
+                      </a>
+                    </div>
+                    <div class="item p-2 mt-1 mb-2 border-t border-lightgrey-700 border-opacity-10">
+                      <a href="/contact" class="flex items-center justify-center font-medium text-lg py-1">
+                        <h4 class="text-lightgrey-500">Contact Us</h4>
+                      </a>
+                    </div>
+                    <div class="item p-2 pb-0 mt-1 border-t border-lightgrey-700 border-opacity-10">
+                      <a href="/faq" class="faqs flex items-center justify-center font-medium text-lg py-1">
+                        <h4 class="text-lightgrey-500">FAQ</h4>
+                      </a>
+                    </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Masai School",
+  "legalName": "Nolan Edutech Private Limited",
+  "description": "Launch your new tech career from anywhere in just 7 months and pay nothing until you land a high-paying job. Attend live classes - online or at our campuses in Bangalore and Patna.",
+  "image": "https://www.masaischool.com/static/covers/masai-school.min.jpeg",
+  "logo": "https://www.masaischool.com/static/img/logo.svg",
+  "url": "https://www.masaischool.com",
+  "email": "admissions@masaischool.com",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "email": "admissions@masaischool.com",
+    "contactType": "customer service"
+  }],
+  "founders": [{
+      "@type": "Person",
+      "name": "Prateek Shukla"
+    },
+    {
+      "@type": "Person",
+      "name": "Yogesh Bhat"
+    },
+    {
+      "@type": "Person",
+      "name": "Nrupul Dev"
+    }
+  ]
+}
+</script>
+<!-- Slider main container -->
+<div>
+  <div class="swiper-container welcome-banner">
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="relative overflow-hidden bg-black">
+          <div class="max-w-6xl mx-auto">
+            <div class=" relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full h-screen  lg:pb-28 xl:pb-32">
+              <div
+                class="flex flex-col items-center lg:items-start lg:justify-center xl:justify-center justify-end text-center lg:text-left h-screen">
+                <div>
+                  <main class="mt-10 mb-8 mx-auto max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                    <div class="sm:text-center lg:text-left">
+                      <h1
+                        class="text-4xl tracking-tight font-serif text-whitesmoke-500 sm:text-5xl md:text-6xl text-opacity-100">
+                        <span class="block xl:inline">Get a tech job, earn</span>
+                        <span class="block text-whitesmoke-500 xl:inline">upto 25 LPA</span>
+                      </h1>
+                      <p
+                        class="mt-3 text-base text-whitesmoke-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
+                        Minimum package of 5 LPA or above
+                      </p>
+                      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                        <div class="rounded-md shadow">
+                          <a href="/courses"
+                            class="w-full flex items-center justify-center px-8 py-3  text-base font-medium rounded-md text-white bg-gradient-to-r from-bloodred-500 to-brightred-500  hover:bg-brightred-500  md:text-lg md:px-10">
+                            Explore our courses
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </main>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute inset-y-0 right-0 opacity-50">
+            <img width="100%" height="657" class="w-full object-cover h-screen swiper-lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/welcome-banner/desktop/masai-intro.min.jpg" data-srcset="
+              https://d27028dliefpk3.cloudfront.net/static/welcome-banner/mobile/masai-intro-sm.min.jpg 240w,
+              https://d27028dliefpk3.cloudfront.net/static/welcome-banner/mobile/masai-intro-sm.min.jpg 480w,
+              https://d27028dliefpk3.cloudfront.net/static/welcome-banner/desktop/masai-intro.min.jpg 768w,
+            " data-src="https://d27028dliefpk3.cloudfront.net/static/welcome-banner/desktop/masai-intro.min.jpg"
+              alt="woman in red long sleeve shirt using macbook pro on brown wooden table">
+          </div>
+        </div>
+      </div>
+      <!-- slider two -->
+      <div class="swiper-slide">
+        <div class="relative overflow-hidden bg-black">
+          <div class="max-w-6xl mx-auto">
+            <div class="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full h-screen lg:pb-28 xl:pb-32">
+              <div
+                class="flex flex-col items-center lg:items-start lg:justify-center xl:justify-center justify-end text-center lg:text-left h-screen">
+                <div>
+                  <main class="mt-10 mb-8 mx-auto max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                    <div class="sm:text-center lg:text-left">
+                      <h1
+                        class="text-4xl tracking-tight font-serif text-whitesmoke-500 sm:text-5xl md:text-6xl text-opacity-100">
+                        <span class="block xl:inline">
+                          Pay ₹0 until
+                        </span>
+                        <span class="block text-whitesmoke-500 xl:inline"> you are hired</span>
+
+                      </h1>
+                      <p
+                        class="mt-3 text-base text-whitesmoke-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
+                        No registration fees or hidden fees.
+                      </p>
+                      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                        <div class="rounded-md shadow">
+                          <a href="/fees"
+                            class="isa-enquiry w-full flex items-center justify-center px-8 py-3  text-base font-medium rounded-md text-white bg-gradient-to-r from-bloodred-500 to-brightred-500  hover:bg-brightred-500  md:text-lg md:px-10">
+                            Explore our ISA
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </main>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute inset-y-0 right-0 opacity-50">
+            <img width="100%" height="657" class="w-full object-cover h-screen swiper-lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/welcome-banner/desktop/carousel-pay-lg.min.jpg" data-srcset="
+              https://d27028dliefpk3.cloudfront.net/static/welcome-banner/mobile/carousel-pay-sm.min.jpg 240w,
+              https://d27028dliefpk3.cloudfront.net/static/welcome-banner/mobile/carousel-pay-sm.min.jpg 480w,
+              https://d27028dliefpk3.cloudfront.net/static/welcome-banner/desktop/carousel-pay-lg.min.jpg 768w,
+            " data-src="https://d27028dliefpk3.cloudfront.net/static/welcome-banner/desktop/carousel-pay-lg.min.jpg"
+              alt="boy in red and blue striped shirt">
+          </div>
+        </div>
+      </div>
+      <!-- slider three -->
+      <div class="swiper-slide">
+        <div class="relative overflow-hidden bg-black">
+          <div class="max-w-6xl mx-auto">
+            <div class="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full h-screen lg:pb-28 xl:pb-32">
+              <div
+                class="flex flex-col items-center lg:items-start lg:justify-center xl:justify-center justify-end text-center lg:text-left h-screen">
+                <div>
+                  <main class="mt-10 mb-8 mx-auto max-w-6xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                    <div class="sm:text-center lg:text-left">
+                      <h1
+                        class="text-4xl tracking-tight font-serif text-whitesmoke-500 sm:text-5xl md:text-6xl text-opacity-100">
+                        <span class="block xl:inline">
+                          Get ₹15,000/- per
+                        </span>
+                        <span class="block xl:inline">month as a student</span>
+                      </h1>
+                      <p
+                        class="mt-3 text-base text-whitesmoke-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
+
+                        Glide through your course, without <span class="block xl:inline"> financial worry.
+                        </span>
+                      </p>
+                      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                        <div class="rounded-md shadow">
+                          <a href="#glide-program"
+                            class="glide-program w-full flex items-center justify-center px-8 py-3  text-base font-medium rounded-md text-white bg-gradient-to-r from-bloodred-500 to-brightred-500  hover:bg-brightred-500  md:text-lg md:px-10">
+                            Explore Glide Program
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </main>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute inset-y-0 right-0 opacity-50">
+            <img width="100%" height="657" class="w-full object-cover h-screen swiper-lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/welcome-banner/desktop/carousel-glide-lg.min.jpg" data-srcset="
+              https://d27028dliefpk3.cloudfront.net/static/welcome-banner/mobile/carousel-glide-sm.min.jpg 240w,
+              https://d27028dliefpk3.cloudfront.net/static/welcome-banner/mobile/carousel-glide-sm.min.jpg 480w,
+              https://d27028dliefpk3.cloudfront.net/static/welcome-banner/desktop/carousel-glide-lg.min.jpg 768w,
+            " data-src="https://d27028dliefpk3.cloudfront.net/static/welcome-banner/desktop/carousel-glide-lg.min.jpg"
+              alt="man in white shirt and black pants sitting on black metal bar">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+  </div>
+</div>
+
+
+<!-- student success path section -->
+<div class="relative bg-swamp-500 pt-8 pb-16 px-4 sm:px-6 lg:pt-16 lg:pb-20 lg:px-8">
+  <div class="absolute inset-0">
+    <div class="bg-swamp-500 h-1/3 sm:h-2/3"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto">
+    <div class="text-center">
+      <h2
+        class="lg:text-5xl md:text-4xl mt-2 mb-4 text-bermudagrey-500 leading-tight font-heading font-serif text-3xl lg:max-w-xl mx-auto">
+        Masai School is the path to student’s success</h2>
+    </div>
+    <div class="mt-12 lg:mt-24 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
+      <div class="flex flex-col rounded-lg text-center overflow-hidden">
+        <div class="flex-shrink-0 items-center">
+          <img width="96" height="96" class="h-24 w-24 rounded-full mx-auto lazyload" loading="lazy"
+            src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Skills.svg"
+            data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Skills.svg"
+            alt="Build industry relevant skills" />
+        </div>
+        <div class="flex-1 bg-swamp-500 p-6 px-0 flex flex-col justify-between">
+          <div class="flex-1">
+            <div class="block">
+              <h3 class="mt-2 text-xl leading-7 font-serif text-whitesmoke-500">
+                Build industry relevant skills
+              </h3>
+              <p class="mt-3 text-base leading-6 text-lightgrey-500">
+                Get job-ready with our skill oriented courses co-created by industry leaders. Build your
+                skillset by working on projects designed to solve real-life problems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-lg text-center overflow-hidden">
+        <div class="flex-shrink-0 items-center ">
+          <img width="96" height="96" class="h-24 w-24 rounded-full mx-auto lazyload " loading="lazy"
+            src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Study.svg"
+            data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Study.svg"
+            alt="Study now, Pay later" />
+        </div>
+        <div class="flex-1 bg-swamp-500 p-6 px-0 flex flex-col justify-between">
+          <div class="flex-1">
+            <div class="block">
+              <h3 class="mt-2 text-xl leading-6 font-serif text-whitesmoke-500">
+                Study now, Pay later
+              </h3>
+              <p class="mt-3 text-base leading-6 text-lightgrey-500">
+                You don't have to pay until you land a job! Masai invests in its students and their
+                future.
+                That's why you're only asked to pay a percentage of your income once you're hired.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col rounded-lg text-center overflow-hidden">
+        <div class="flex-shrink-0 items-center">
+          <img width="96" height="96" class="h-24 w-24 rounded-full mx-auto lazyload" loading="lazy"
+            src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Grow.svg"
+            data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Grow.svg"
+            alt="Holistic Development" />
+        </div>
+        <div class="flex-1 bg-swamp-500 p-6 px-0 flex flex-col justify-between">
+          <div class="flex-1">
+            <div class="block">
+              <h3 class="mt-2 text-xl leading-7 font-serif text-whitesmoke-500">
+                Holistic Development
+              </h3>
+              <p class="mt-2 text-base leading-6 text-lightgrey-500">
+                Our core focus is to make students disciplined, hard working and better programmers,
+                capable
+                of navigating the unknown & desired by the best tech companies.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- courses -->
+<div class="py-12 bg-vulcan-500">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <p class="mt-2 text-3xl leading-8 font-serif  text-bermudagrey-500 sm:text-4xl">
+        Masai Courses
+      </p>
+      <p class="mt-2  text-lg text-lightgrey-500 ">
+        Masai School Core Focus is on Skill Development and Holistic Learning.
+      </p>
+      <div class="h-1 w-20 bg-brightred-500 rounded mx-auto mt-3">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- r-program -->
+<section class='text-lightgrey-500 bg-vulcan-500'>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+    <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+      <div class="flex">
+        <div class="ml-4">
+          <div class="flex justify-start items-center">
+            <div>
+              <img width="40" height="40" class="md:h-10 md:w-10 h-6 w-6 rounded-full lazyload" loading="lazy"
+                src="https://d27028dliefpk3.cloudfront.net/static/Illustration/r-program-icon.svg"
+                data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/r-program-icon.svg"
+                alt="Build industry relevant skills" />
+            </div>
+            <div>
+              <h1 class="text-2xl leading-6 font-medium ml-2 text-whitesmoke-500 font-serif">
+                Program
+              </h1>
+            </div>
+          </div>
+          <h1 class="lg:text-2xl text-xl font-serif title-font mb-2 text-lightgrey-500 mt-2">No coding skills
+            required.
+          </h1>
+          <div class="h-1 w-20 bg-brightred-500 rounded">
+          </div>
+        </div>
+      </div>
+
+      <div class="flex">
+        <div class="ml-4">
+          <h1 class="lg:text-2xl text-xl font-serif title-font mb-2 text-lightgrey-500">Designed for beginners,
+            focused on outcomes.
+          </h1>
+          Be prepared for a rigorous, challenging program that
+          requires consistency, discipline, and accountability. By the end of these tracks, you will have the skills
+          to
+          conquer your career.
+        </div>
+      </div>
+    </dl>
+  </div>
+  <!-- course list -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14">
+    <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 pt-10">
+      <li class="col-span-1 bg-firefly-500 rounded-lg shadow divide-y divide-swamp-500">
+        <div class="w-full flex items-center justify-start p-6 space-x-6">
+          <img width="114" height="116" class="mx-auto lazyload" loading="lazy"
+            src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_WebDev.svg"
+            data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_WebDev.svg"
+            alt="Build industry relevant skills" />
+          <div class="flex-1 truncate">
+            <div class="flex items-center space-x-3">
+              <span
+                class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-brightred-500 text-whitesmoke-500 mb-1">
+                Full-Time
+              </span>
+            </div>
+            <dt class="text-xl lg:text-xl leading-6 font-medium text-lightgrey-500 font-serif">
+              Full Stack Web
+              <br class="inline" />
+              Development
+            </dt>
+
+            <dt class="text-sm font-medium text-lightgrey-500 pt-2">
+              Mon - Fri : <br class="lg:hidden inline" />
+              9:00am to 9:00pm <br />
+              Sat : 10:00am to 6:00pm
+            </dt>
+          </div>
+        </div>
+        <div>
+          <div class="-mt-px flex divide-x divide-swamp-500">
+            <div class="w-0 flex-1 flex">
+              <span
+                class="r-program ml-2 bg-teal-200 text-whitesmoke-500 font-bold text-center rounded-full  inline-block tracking-wide text-xs">
+              </span>
+              <a href="/courses/full_stack"
+                class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-whitesmoke-500 font-medium border border-transparent rounded-bl-lg hover:text-whitesmoke-600">
+                <svg class="h-4 w-4 ml-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M17.1997 1.99993C17.1997 1.33719 16.6625 0.799927 15.9997 0.799927C15.337 0.799927 14.7997 1.33719 14.7997 1.99993V2.80003H9.1999V1.99993C9.1999 1.33719 8.66264 0.799927 7.9999 0.799927C7.33716 0.799927 6.7999 1.33719 6.7999 1.99993V2.80003H4.9998C3.23249 2.80003 1.7998 4.23272 1.7998 6.00003V10V20C1.7998 21.7673 3.23249 23.2 4.9998 23.2H18.9998C20.7671 23.2 22.1998 21.7673 22.1998 20V10V6.00003C22.1998 4.23272 20.7671 2.80003 18.9998 2.80003H17.1997V1.99993ZM19.7998 8.80002V6.00003C19.7998 5.5582 19.4416 5.20003 18.9998 5.20003H17.1997V5.99993C17.1997 6.66267 16.6625 7.19993 15.9997 7.19993C15.337 7.19993 14.7997 6.66267 14.7997 5.99993V5.20003H9.1999V5.99993C9.1999 6.66267 8.66264 7.19993 7.9999 7.19993C7.33716 7.19993 6.7999 6.66267 6.7999 5.99993V5.20003H4.9998C4.55798 5.20003 4.1998 5.5582 4.1998 6.00003V8.80002H19.7998ZM4.1998 11.2H19.7998V20C19.7998 20.4419 19.4416 20.8 18.9998 20.8H4.9998C4.55798 20.8 4.1998 20.4419 4.1998 20V11.2Z"
+                    fill="#fff" />
+                </svg>
+                <span class="ml-3">15 Mar, 2021</span>
+              </a>
+            </div>
+            <div class="-ml-px w-0 flex-1 flex">
+              <span
+                class="relative w-0 flex-1 inline-flex items-center justify-center text-sm text-gray-700 font-medium border border-transparent rounded-br-lg">
+                <span class="inline-flex rounded-md shadow-md ">
+                  <a href="/courses/full_stack"
+                    class="r-program inline-flex items-center px-4 py-1 text-sm leading-6 font-medium rounded-md text-white border  border-brightred-500 bg-swamp-500 transition ease-in-out duration-150">
+                    Explore course
+                  </a>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="col-span-1 bg-firefly-500 rounded-lg shadow divide-y divide-swamp-500">
+        <div class="w-full flex items-center justify-start p-6 space-x-6">
+          <img width="114" height="116" class="mx-auto lazyload" loading="lazy"
+            src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_AndroidDev.svg"
+            data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_AndroidDev.svg"
+            alt="Build industry relevant skills" />
+          <div class="flex-1 truncate">
+            <div class="flex items-center space-x-3">
+              <span
+                class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-brightred-500 text-whitesmoke-500 mb-1">
+                Full-Time
+              </span>
+            </div>
+            <dt class="text-xl lg:text-xl leading-6 font-medium text-lightgrey-500 font-serif">
+              Full Stack
+              <br class="md:hidden lg:hidden inline" />
+
+              Android
+              <br class="inline" />
+              Development
+            </dt>
+
+            <dt class="text-sm font-medium text-lightgrey-500 pt-2">
+              Mon - Fri : <br class="lg:hidden inline" />
+              9:00am to 9:00pm <br />
+              Sat : 10:00am to 6:00pm
+            </dt>
+          </div>
+        </div>
+        <div>
+          <div class="-mt-px flex divide-x divide-swamp-500">
+            <div class="w-0 flex-1 flex">
+              <span
+                class="r-program ml-2 bg-teal-200 text-whitesmoke-500 font-bold text-center rounded-full  inline-block tracking-wide text-xs">
+              </span>
+              <a href="/courses/android"
+                class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-whitesmoke-500 font-medium border border-transparent rounded-bl-lg hover:text-whitesmoke-600">
+                <svg class="h-4 w-4 ml-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M17.1997 1.99993C17.1997 1.33719 16.6625 0.799927 15.9997 0.799927C15.337 0.799927 14.7997 1.33719 14.7997 1.99993V2.80003H9.1999V1.99993C9.1999 1.33719 8.66264 0.799927 7.9999 0.799927C7.33716 0.799927 6.7999 1.33719 6.7999 1.99993V2.80003H4.9998C3.23249 2.80003 1.7998 4.23272 1.7998 6.00003V10V20C1.7998 21.7673 3.23249 23.2 4.9998 23.2H18.9998C20.7671 23.2 22.1998 21.7673 22.1998 20V10V6.00003C22.1998 4.23272 20.7671 2.80003 18.9998 2.80003H17.1997V1.99993ZM19.7998 8.80002V6.00003C19.7998 5.5582 19.4416 5.20003 18.9998 5.20003H17.1997V5.99993C17.1997 6.66267 16.6625 7.19993 15.9997 7.19993C15.337 7.19993 14.7997 6.66267 14.7997 5.99993V5.20003H9.1999V5.99993C9.1999 6.66267 8.66264 7.19993 7.9999 7.19993C7.33716 7.19993 6.7999 6.66267 6.7999 5.99993V5.20003H4.9998C4.55798 5.20003 4.1998 5.5582 4.1998 6.00003V8.80002H19.7998ZM4.1998 11.2H19.7998V20C19.7998 20.4419 19.4416 20.8 18.9998 20.8H4.9998C4.55798 20.8 4.1998 20.4419 4.1998 20V11.2Z"
+                    fill="#fff" />
+                </svg>
+                <span class="ml-3">19 Apr 2021</span>
+              </a>
+            </div>
+            <div class="-ml-px w-0 flex-1 flex">
+              <span
+                class="relative w-0 flex-1 inline-flex items-center justify-center text-sm text-gray-700 font-medium border border-transparent rounded-br-lg">
+                <span class="inline-flex rounded-md shadow-md ">
+                  <a href="/courses/android"
+                    class="r-program inline-flex items-center px-4 py-1 text-sm leading-6 font-medium rounded-md text-white border  border-brightred-500 bg-swamp-500 transition ease-in-out duration-150">
+                    Explore course
+                  </a>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="col-span-1 bg-firefly-500 rounded-lg shadow divide-y divide-swamp-500">
+        <div class="w-full flex items-center justify-start p-6 space-x-6">
+          <img width="114" height="116" class="mx-auto lazyload" loading="lazy"
+            src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_WebDev.svg"
+            data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_WebDev.svg"
+            alt="Build industry relevant skills" />
+          <div class="flex-1 truncate">
+            <div class="flex items-center space-x-3">
+              <span
+                class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-brightred-500 text-whitesmoke-500 mb-1">
+                Part-Time
+              </span>
+            </div>
+            <dt class="text-xl lg:text-xl leading-6 font-medium text-lightgrey-500 font-serif">
+              Full Stack Web
+              <br class="inline" />
+              Development
+            </dt>
+
+            <dt class="text-sm font-medium text-lightgrey-500 pt-2">
+              Mon - Fri : <br class="lg:hidden inline" />
+              7-10pm or 9-12pm <br />
+              Sat : 11.00am to 2.00pm
+            </dt>
+          </div>
+        </div>
+        <div>
+          <div class="-mt-px flex divide-x divide-swamp-500">
+            <div class="w-0 flex-1 flex">
+              <span
+                class="r-program ml-2 bg-teal-200 text-whitesmoke-500 font-bold text-center rounded-full  inline-block tracking-wide text-xs">
+              </span>
+              <a href="/courses/full_stack_web_dev_part_time"
+                class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-whitesmoke-500 font-medium border border-transparent rounded-bl-lg hover:text-whitesmoke-600">
+                <svg class="h-4 w-4 ml-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M17.1997 1.99993C17.1997 1.33719 16.6625 0.799927 15.9997 0.799927C15.337 0.799927 14.7997 1.33719 14.7997 1.99993V2.80003H9.1999V1.99993C9.1999 1.33719 8.66264 0.799927 7.9999 0.799927C7.33716 0.799927 6.7999 1.33719 6.7999 1.99993V2.80003H4.9998C3.23249 2.80003 1.7998 4.23272 1.7998 6.00003V10V20C1.7998 21.7673 3.23249 23.2 4.9998 23.2H18.9998C20.7671 23.2 22.1998 21.7673 22.1998 20V10V6.00003C22.1998 4.23272 20.7671 2.80003 18.9998 2.80003H17.1997V1.99993ZM19.7998 8.80002V6.00003C19.7998 5.5582 19.4416 5.20003 18.9998 5.20003H17.1997V5.99993C17.1997 6.66267 16.6625 7.19993 15.9997 7.19993C15.337 7.19993 14.7997 6.66267 14.7997 5.99993V5.20003H9.1999V5.99993C9.1999 6.66267 8.66264 7.19993 7.9999 7.19993C7.33716 7.19993 6.7999 6.66267 6.7999 5.99993V5.20003H4.9998C4.55798 5.20003 4.1998 5.5582 4.1998 6.00003V8.80002H19.7998ZM4.1998 11.2H19.7998V20C19.7998 20.4419 19.4416 20.8 18.9998 20.8H4.9998C4.55798 20.8 4.1998 20.4419 4.1998 20V11.2Z"
+                    fill="#fff" />
+                </svg>
+                <span class="ml-3">05 Apr, 2021</span>
+              </a>
+            </div>
+            <div class="-ml-px w-0 flex-1 flex">
+              <span
+                class="relative w-0 flex-1 inline-flex items-center justify-center text-sm text-gray-700 font-medium border border-transparent rounded-br-lg">
+                <span class="inline-flex rounded-md shadow-md ">
+                  <a href="/courses/full_stack_web_dev_part_time"
+                    class="r-program inline-flex items-center px-4 py-1 text-sm leading-6 font-medium rounded-md text-white border  border-brightred-500 bg-swamp-500 transition ease-in-out duration-150">
+                    Explore course
+                  </a>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<!--   
+  */ Todo (vetrivel) - uncomment again if i-program open 
+  and update program information
+-->
+<!-- i-program --
+
+<section class='text-lightgrey-500 bg-vulcan-500 border-t border-vulcan-300'>
+  <div class="pt-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+    <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+      <div class="flex">
+        <div class="ml-4">
+          <div class="flex justify-start items-center">
+            <div>
+              <img width="40" height="40" class="md:h-10 md:w-10 h-6 w-6 rounded-full lazyload" loading="lazy"
+                src="https://d27028dliefpk3.cloudfront.net/static/Illustration/i-program-icon.svg"
+                data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/i-program-icon.svg"
+                alt="Build industry relevant skills" />
+            </div>
+            <div>
+              <h1 class="text-2xl leading-6 font-medium ml-2 text-whitesmoke-500 font-serif">
+                Program
+              </h1>
+            </div>
+          </div>
+          <h1 class="lg:text-2xl text-xl font-serif title-font mb-2 text-lightgrey-500 mt-2">Basic knowledge of Data
+            Structures <br class="hidden md:inline" /> & Algorithms required.
+          </h1>
+          <div class="h-1 w-20 bg-brightred-500 rounded">
+          </div>
+        </div>
+      </div>
+
+      <div class="flex">
+        <div class="ml-4">
+          <h1 class="lg:text-2xl text-xl font-serif title-font mb-2 text-lightgrey-500 mt-2">Designed for students &
+            professionals.
+          </h1>
+          Designed for students who have a basic understanding of data structures & algorithms, to crack aspirational
+          jobs.
+        </div>
+      </div>
+    </dl>
+  </div>
+  
+  <-- course list --
+<div class="container px-5 py-14 mx-auto">
+  <div class="flex flex-wrap w-full">
+    <dl class="space-y-5 md:space-y-0 md:grid lg:grid-cols-6 md:gap-x-8 md:gap-y-10">
+      <div class="flex col-start-2 col-end-4">
+        <div class="flex bg-firefly-500 items-center justify-center rounded-md py-4 lg:px-8 px-4 shadow">
+          <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-28 w-26 rounded-md text-white">
+              <img width="114" height="116" class="mx-auto lazyload" loading="lazy"
+                src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Backend.svg"
+                data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Backend.svg"
+                alt="Build industry relevant skills" />
+            </div>
+            <div class="-mt-6 relative ">
+              <div class="bg-white rounded px-1 py-1 shadow-lg ">
+                <div class="flex items-center">
+                  <svg class="h-4 w-4 ml-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M17.1997 1.99993C17.1997 1.33719 16.6625 0.799927 15.9997 0.799927C15.337 0.799927 14.7997 1.33719 14.7997 1.99993V2.80003H9.1999V1.99993C9.1999 1.33719 8.66264 0.799927 7.9999 0.799927C7.33716 0.799927 6.7999 1.33719 6.7999 1.99993V2.80003H4.9998C3.23249 2.80003 1.7998 4.23272 1.7998 6.00003V10V20C1.7998 21.7673 3.23249 23.2 4.9998 23.2H18.9998C20.7671 23.2 22.1998 21.7673 22.1998 20V10V6.00003C22.1998 4.23272 20.7671 2.80003 18.9998 2.80003H17.1997V1.99993ZM19.7998 8.80002V6.00003C19.7998 5.5582 19.4416 5.20003 18.9998 5.20003H17.1997V5.99993C17.1997 6.66267 16.6625 7.19993 15.9997 7.19993C15.337 7.19993 14.7997 6.66267 14.7997 5.99993V5.20003H9.1999V5.99993C9.1999 6.66267 8.66264 7.19993 7.9999 7.19993C7.33716 7.19993 6.7999 6.66267 6.7999 5.99993V5.20003H4.9998C4.55798 5.20003 4.1998 5.5582 4.1998 6.00003V8.80002H19.7998ZM4.1998 11.2H19.7998V20C19.7998 20.4419 19.4416 20.8 18.9998 20.8H4.9998C4.55798 20.8 4.1998 20.4419 4.1998 20V11.2Z"
+                      fill="#B10107" />
+                  </svg>
+                  <p
+                    class="ml-2 bg-teal-200 text-brightred-500 font-bold text-center  inline-block tracking-wide text-xs truncate">
+                    Applications <br class="lg:hidden block" /> Closed</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml-8 text-left">
+            <span
+              class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-brightred-500 text-whitesmoke-500 mb-1">
+              Part-Time
+            </span>
+            <dt class="text-xl lg:text-xl leading-6 font-medium text-lightgrey-500 font-serif">
+              Backend
+              <br class="hidden md:inline" />
+              Development
+            </dt>
+            <span class="inline-flex rounded-md shadow-md mt-3">
+              <a href="/courses/backend"
+                class="i-program  inline-flex items-center px-4 py-1 text-sm leading-6 font-medium rounded-md text-white border  border-brightred-500  bg-swamp-500 transition ease-in-out duration-150">
+                Explore course
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex col-end-6 col-span-2">
+        <div class="flex bg-firefly-500 items-center justify-center rounded-md py-4 lg:px-8 px-4 lg:mt-0 shadow">
+          <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-28 w-26 rounded-md text-white">
+              <img width="114" height="116" class="mx-auto lazyload" loading="lazy"
+                src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_WebDev.svg"
+                data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_WebDev.svg"
+                alt="Build industry relevant skills" />
+            </div>
+            <div class="-mt-6 relative">
+              <div class="bg-white rounded px-1 py-1 shadow-lg">
+                <div class="flex items-center">
+                  <svg class="h-4 w-4 ml-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M17.1997 1.99993C17.1997 1.33719 16.6625 0.799927 15.9997 0.799927C15.337 0.799927 14.7997 1.33719 14.7997 1.99993V2.80003H9.1999V1.99993C9.1999 1.33719 8.66264 0.799927 7.9999 0.799927C7.33716 0.799927 6.7999 1.33719 6.7999 1.99993V2.80003H4.9998C3.23249 2.80003 1.7998 4.23272 1.7998 6.00003V10V20C1.7998 21.7673 3.23249 23.2 4.9998 23.2H18.9998C20.7671 23.2 22.1998 21.7673 22.1998 20V10V6.00003C22.1998 4.23272 20.7671 2.80003 18.9998 2.80003H17.1997V1.99993ZM19.7998 8.80002V6.00003C19.7998 5.5582 19.4416 5.20003 18.9998 5.20003H17.1997V5.99993C17.1997 6.66267 16.6625 7.19993 15.9997 7.19993C15.337 7.19993 14.7997 6.66267 14.7997 5.99993V5.20003H9.1999V5.99993C9.1999 6.66267 8.66264 7.19993 7.9999 7.19993C7.33716 7.19993 6.7999 6.66267 6.7999 5.99993V5.20003H4.9998C4.55798 5.20003 4.1998 5.5582 4.1998 6.00003V8.80002H19.7998ZM4.1998 11.2H19.7998V20C19.7998 20.4419 19.4416 20.8 18.9998 20.8H4.9998C4.55798 20.8 4.1998 20.4419 4.1998 20V11.2Z"
+                      fill="#B10107" />
+                  </svg>
+                  <p
+                    class="ml-2 bg-teal-200 text-brightred-500 font-bold text-center  inline-block tracking-wide text-xs truncate">
+                    Applications <br class="lg:hidden block" /> Closed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ml-8 text-left">
+            <span
+              class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-brightred-500 text-whitesmoke-500 mb-1">
+              Part-Time
+            </span>
+            <dt class="text-xl lg:text-xl leading-6 font-medium text-lightgrey-500 font-serif">
+              Full Stack Web
+              <br class="hidden md:inline" />
+              Development
+            </dt>
+            <span class="inline-flex rounded-md shadow-md mt-3">
+              <a href="/courses/full_stack_part"
+                class="i-program  inline-flex items-center px-4 py-1 text-sm leading-6 font-medium rounded-md text-white border  border-brightred-500 bg-swamp-500 transition ease-in-out duration-150">
+                Explore course
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </dl>
+  </div>
+</div>
+</section>
+-->
+<!-- course end here -->
+<!--  testimonial -->
+<section>
+  <div class="relative max-w-7xl mx-auto mt-3 mb-10">
+    <div class="py-12 px-4 text-center">
+      <div class="w-full max-w-4xl mx-auto">
+        <h2
+          class="lg:text-5xl md:text-4xl mt-2 mb-2 leading-tight font-heading font-serif text-bermudagrey-500 text-3xl">
+          We give people
+          the
+          tools they need to rewrite their futures</h2>
+      </div>
+    </div>
+    <div class="antialiased sans-serif bg-firefly-500 text-gray-600">
+      <div class="my-10 md:my-20 container mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden"
+        x-data="{ testimonialActive: 2 }" x-cloak>
+        <div class="relative w-full py-2 md:py-24 bg-vulcan-500 md:w-1/2 flex flex-col item-center justify-center">
+          <div class="absolute top-0 left-0 z-10 grid-indigo w-16 h-16 md:w-40 md:h-40 md:ml-20 md:mt-24"></div>
+          <div
+            class="relative text-2xl md:text-5xl py-2 px-6 md:py-6 md:px-1 md:w-64 md:mx-auto text-indigo-100 font-serif leading-normal tracking-tight mb-0 z-20">
+            <span class="md:block">Alumni </span>
+            <span class="md-block"> Stories to</span>
+            <span class="block">Success!</span>
+          </div>
+
+          <div class="absolute right-0 bottom-0 mr-4 mb-4 hidden md:block">
+            <button
+              class="rounded-l-full border-r border-glacier-900 bg-bermudagrey-500 text-gray-100 focus:outline-none hover:text-glacier-50 font-bold w-12 h-10"
+              x-on:click="testimonialActive = testimonialActive === 1 ? 4 : testimonialActive - 1">
+              &#8592;
+            </button><button
+              class="rounded-r-full bg-bermudagrey-500 text-gray-100 focus:outline-none hover:text-glacier-50 font-bold w-12 h-10"
+              x-on:click="testimonialActive = testimonialActive >= 4 ? 1 : testimonialActive + 1">
+              &#8594;
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-firefly-500 md:w-1/2">
+          <div class="flex flex-col h-full relative">
+            <div class="absolute top-0  left-0 mt-3 ml-4 md:mt-5 mb-5 md:ml-12">
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-glacier-500 fill-current w-12 h-12 md:w-16 md:h-16"
+                viewBox="0 0 24 24">
+                <path
+                  d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35.208-.086.39-.16.539-.222.302-.125.474-.197.474-.197L9.758 4.03c0 0-.218.052-.597.144C8.97 4.222 8.737 4.278 8.472 4.345c-.271.05-.56.187-.882.312C7.272 4.799 6.904 4.895 6.562 5.123c-.344.218-.741.4-1.091.692C5.132 6.116 4.723 6.377 4.421 6.76c-.33.358-.656.734-.909 1.162C3.219 8.33 3.02 8.778 2.81 9.221c-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539.017.109.025.168.025.168l.026-.006C2.535 17.474 4.338 19 6.5 19c2.485 0 4.5-2.015 4.5-4.5S8.985 10 6.5 10zM17.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35.208-.086.39-.16.539-.222.302-.125.474-.197.474-.197L20.758 4.03c0 0-.218.052-.597.144-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162C14.219 8.33 14.02 8.778 13.81 9.221c-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539.017.109.025.168.025.168l.026-.006C13.535 17.474 15.338 19 17.5 19c2.485 0 4.5-2.015 4.5-4.5S19.985 10 17.5 10z" />
+              </svg>
+            </div>
+
+            <div class="h-full relative z-10 top-14">
+              <div x-show.immediate="testimonialActive === 1">
+                <p class="text-whitesmoke-500 font-normal px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl "
+                  x-show.transition="testimonialActive == 1">
+                  <lite-youtube videoid="gnrxT5suCkk"
+                    params="controls=0&start=5&end=30&modestbranding=2&rel=0&enablejsapi=1"
+                    playlabel="Alumni Speak, Masai School | Mohamed Hassan, Full Stack Developer, Sharechat">
+                  </lite-youtube>
+                </p>
+              </div>
+
+              <div x-show.immediate="testimonialActive === 2">
+                <p class="text-whitesmoke-500  font-normal  px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl"
+                  x-show.transition="testimonialActive == 2">
+                  <lite-youtube videoid="jKWe9pJiydE"
+                    params="controls=0&start=5&end=30&modestbranding=2&rel=0&enablejsapi=1"
+                    playlabel="BSc Graduate to a Software Developer in 30 weeks | Soumitha's Journey at Masai School">
+                  </lite-youtube>
+                </p>
+              </div>
+
+              <div x-show.immediate="testimonialActive === 3">
+                <p class="text-whitesmoke-500  font-normal  px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl"
+                  x-show.transition="testimonialActive == 3">
+                  <lite-youtube videoid="HQa3C6hmgVU"
+                    params="controls=0&start=5&end=30&modestbranding=2&rel=0&enablejsapi=1"
+                    playlabel="In conversation with Chandrashekhara | Masai Alumni">
+                  </lite-youtube>
+                </p>
+              </div>
+
+              <div x-show.immediate="testimonialActive === 4">
+                <p class="text-whitesmoke-500  font-normal  px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl"
+                  x-show.transition="testimonialActive == 4">
+                  <lite-youtube videoid="vs4PNiLN1CU"
+                    params="controls=0&start=5&end=30&modestbranding=2&rel=0&enablejsapi=1"
+                    playlabel="In conversation with Abhishek Saklani | Student @ Masai">
+                  </lite-youtube>
+                </p>
+              </div>
+            </div>
+
+            <div class="flex my-8 mb-0 justify-center lg:pt-6 pt-3 items-center">
+              <button @click.prevent="testimonialActive = 1"
+                class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline inline-block rounded-full mx-2"
+                :class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 1, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 1 }">
+                <img class="rounded-full" width="65" height="65"
+                  data-src="https://masai-school.s3.ap-south-1.amazonaws.com/static/pictures/batches/cohort-1/vk_006.jpg"
+                  src="https://masai-school.s3.ap-south-1.amazonaws.com/static/pictures/batches/cohort-1/vk_006.jpg"
+                  alt="hassan" />
+              </button>
+              <button @click.prevent="testimonialActive = 2"
+                class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-16 w-16 inline-block bg-indigo-600 rounded-full mx-2"
+                :class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 2, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 2 }">
+                <img class="rounded-full" width="65" height="65"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/alumni-pic/soumitha.min.jpeg"
+                  src="https://d27028dliefpk3.cloudfront.net/static/alumni-pic/soumitha.min.jpeg" alt="soumitha" />
+              </button>
+              <button @click.prevent="testimonialActive = 3"
+                class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-12 w-12 inline-block bg-indigo-600 rounded-full mx-2"
+                :class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 3, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 3 }">
+                <img class="rounded-full" width="65" height="65"
+                  data-src="https://masai-school.s3.ap-south-1.amazonaws.com/static/pictures/batches/cohort-1/vk_004.jpg"
+                  src="https://masai-school.s3.ap-south-1.amazonaws.com/static/pictures/batches/cohort-1/vk_004.jpg"
+                  alt="chandu" />
+              </button>
+              <button @click.prevent="testimonialActive = 4"
+                class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline h-12 w-12 inline-block bg-indigo-600 rounded-full mx-2"
+                :class="{'h-12 w-12 opacity-25 bg-indigo-300 text-gray-600': testimonialActive != 4, 'h-16 w-16 opacity-100 bg-indigo-600 text-white': testimonialActive == 4 }">
+                <img class="rounded-full" width="65" height="65"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/alumni-pic/abhishek.min.jpeg"
+                  src="https://d27028dliefpk3.cloudfront.net/static/alumni-pic/abhishek.min.jpeg" alt="abhishek" /></button>
+            </div>
+
+            <div class="flex justify-center px-6 pt-4 pb-6 ">
+              <div class="text-center" x-show="testimonialActive == 1">
+                <div class="grid grid-cols-2 gap-3">
+                  <div class="justify-self-end px-4 border-r border-glacier-500 border-opacity-60">
+                    <img class="justify-items-center" width="107" height="33" class="lazyload" loading="lazy"
+                      src="https://d27028dliefpk3.cloudfront.net/static/logos/ShareChat@2x.min.png"
+                      data-src="https://d27028dliefpk3.cloudfront.net/static/logos/ShareChat@2x.min.png" alt="Sharechat">
+                  </div>
+                  <div>
+                    <h2 class="text-sm md:text-base font-bold text-whitesmoke-500 leading-tight">Mohamed Hassan
+                    </h2>
+                    <small class="text-whitesmoke-500 text-xs md:text-sm truncate">Software Developer</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-center" x-show="testimonialActive == 2">
+                <div class="grid grid-cols-2 gap-3">
+                  <div class="justify-self-end px-4 border-r border-glacier-500 border-opacity-60">
+                    <img class="justify-items-center" width="107" height="33" class="lazyload" loading="lazy"
+                      src="https://d27028dliefpk3.cloudfront.net/static/logos/RevvSales@2x.min.png"
+                      data-src="https://d27028dliefpk3.cloudfront.net/static/logos/RevvSales@2x.min.png" alt="revv">
+                  </div>
+                  <div>
+                    <h2 class="text-sm md:text-base font-bold text-whitesmoke-500 leading-tight">Soumitha Bhaskara
+                    </h2>
+                    <small class="text-whitesmoke-500 text-xs md:text-sm truncate">Software Developer</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-center" x-show="testimonialActive == 3">
+                <div class="grid grid-cols-2 gap-3">
+                  <div class="justify-self-end px-4 border-r border-glacier-500 border-opacity-60">
+                    <img class="justify-items-center" width="107" height="33" class="lazyload" loading="lazy"
+                      src="https://d27028dliefpk3.cloudfront.net/static/logos/Propelld@2x.min.png"
+                      data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Propelld@2x.min.png" alt="Propelld">
+                  </div>
+                  <div>
+                    <h2 class="text-sm md:text-base font-bold text-whitesmoke-500 leading-tight">Chandrashekhar
+                    </h2>
+                    <small class="text-whitesmoke-500 text-xs md:text-sm truncate">Full-Stack Engineer</small>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center" x-show="testimonialActive == 4">
+
+                <div class="grid grid-cols-2 gap-3">
+                  <div class="justify-self-end px-4 border-r border-glacier-500 border-opacity-60">
+                    <img class="justify-items-center" width="107" height="33" class="lazyload" loading="lazy"
+                      src="https://d27028dliefpk3.cloudfront.net/static/logos/UrbanPiper@2x.min.png"
+                      data-src="https://d27028dliefpk3.cloudfront.net/static/logos/UrbanPiper@2x.min.png" alt="UrbanPiper">
+                  </div>
+                  <div>
+                    <h2 class="text-sm md:text-base font-bold text-whitesmoke-500 leading-tight">Abhishek Saklani
+                    </h2>
+                    <small class="text-whitesmoke-500 text-xs md:text-sm truncate">Backend Developer</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- button view more -->
+    <div class="py-4 px-4 text-center">
+      <div class="max-w-md lg:max-w-xs mx-auto px-6">
+        <a href="/meet-alumni"
+          class="w-full rounded-md py-2 px-4 flex items-center justify-center text-base leading-6 font-bold focus:outline-none focus:shadow-outline transition duration-150 ease-in-out border border-brightred-500 bg-swamp-500 text-whitesmoke-500 shadow-lg">
+          View All
+        </a>
+      </div>
+    </div>
+    <!-- end button view more -->
+  </div>
+  </div>
+</section>
+
+<!-- how to apply section -->
+<section class="bg-vulcan-500">
+  <div class="py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p class="mt-5 text-3xl leading-8 font-serif tracking-tight text-bermudagrey-500 sm:text-4xl">
+          How to Apply
+        </p>
+        <p class="mt-4 max-w-xl text-lightgrey-500 mx-auto">
+          Our Selection Process is based only on talent and motivation, and not on the basis of educational
+          degrees. </p>
+      </div>
+
+      <div class="mt-16 mb-10">
+        <dl class="space-y-10 md:space-y-0 md:grid gap-4 md:grid-cols-6 md:gap-x-8 md:gap-y-10">
+          <div class="flex col-start-1 col-end-3 lg:justify-center">
+            <div class="flex-shrink-0 md:hidden">
+              <div class="flex items-center justify-center ">
+                <img width="96" height="96" class="h-24 w-24 mx-auto lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_ChooseCourse.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_ChooseCourse.svg"
+                  alt="Choose Course" />
+              </div>
+            </div>
+            <div class="ml-4 md:text-center">
+              <div class="flex items-center justify-center rounded-md ">
+                <img width="96" height="96" class="h-24 w-24 mx-auto hidden md:block lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_ChooseCourse.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_ChooseCourse.svg"
+                  alt="Choose Course" />
+              </div>
+              <dt class="text-lg leading-6 font-serif text-whitesmoke-500 mt-3">
+                Choose Course
+              </dt>
+              <dd class="mt-2 text-base text-lightgrey-500">
+                Choose your desired course from our
+                <br class="hidden md:inline" /> Programs.
+              </dd>
+            </div>
+          </div>
+
+          <div class="flex col-start-3 col-end-5 flex-row-reverse lg:flex-row lg:justify-center">
+            <div class="flex-shrink-0 md:hidden">
+              <div class="flex items-center justify-center rounded-md text-white">
+                <img width="96" height="96" class="h-24 w-24 mx-auto lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_CreateAccount.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_CreateAccount.svg"
+                  alt="Create Profile" />
+              </div>
+            </div>
+            <div class="mr-4 md:text-center text-right">
+              <div class="flex items-center justify-center">
+                <img width="96" height="96" class="h-24 w-24 mx-auto hidden md:block lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_CreateAccount.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_CreateAccount.svg"
+                  alt="Create Profile" />
+              </div>
+              <dt class="text-lg leading-6 font-serif text-whitesmoke-500 mt-3">
+                Create Profile
+              </dt>
+              <dd class="mt-2 text-base text-lightgrey-500">
+                Fill in your details & start the
+                <br class="hidden md:inline" />
+                admission process.
+              </dd>
+            </div>
+          </div>
+
+          <div class="flex col-start-5 col-end-7 lg:justify-center">
+            <div class="flex-shrink-0 md:hidden">
+              <div class="flex items-center justify-center ">
+                <img width="96" height="96" class="h-24 w-24 mx-auto lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_CompleteMSAT.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_CompleteMSAT.svg"
+                  alt="Complete MSAT" />
+              </div>
+            </div>
+            <div class="ml-4 md:text-center">
+              <div class="flex items-center justify-center ">
+                <img width="96" height="96" class="h-24 w-24 mx-auto hidden md:block lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_CompleteMSAT.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_CompleteMSAT.svg"
+                  alt="Complete Test" />
+              </div>
+              <dt class="text-lg leading-6 font-serif text-whitesmoke-500 mt-3">
+                Complete Test
+              </dt>
+              <dd class="mt-2 text-base text-lightgrey-500">
+                Clear the Masai School
+                <br class="hidden md:inline" />
+                Assessment/Programming Test.
+              </dd>
+            </div>
+          </div>
+
+          <div class="flex col-start-2 col-end-4 flex-row-reverse lg:flex-row lg:justify-center">
+            <div class="flex-shrink-0 md:hidden">
+              <div class="flex items-center justify-center">
+                <img width="96" height="96" class="h-24 w-24 mx-auto lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Interview.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Interview.svg"
+                  alt="Interview" />
+              </div>
+            </div>
+            <div class="mr-4 md:text-center text-right">
+              <div class="flex items-center justify-center">
+                <img width="96" height="96" class="h-24 w-24 mx-auto hidden md:block lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Interview.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Interview.svg"
+                  alt="Interview" />
+              </div>
+              <dt class="text-lg leading-6 font-serif text-whitesmoke-500 mt-3">
+                Interview
+              </dt>
+              <dd class="mt-2 text-base text-lightgrey-500">
+                An interview is our final selection
+                <br class="hidden md:inline" />
+                round.
+              </dd>
+            </div>
+          </div>
+
+          <div class="flex col-start-4 col-end-6 lg:justify-center">
+            <div class="flex-shrink-0 ">
+              <div class="flex items-center justify-center">
+                <img width="96" height="96" class="h-24 w-24 mx-auto md:hidden lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Documentation.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Documentation.svg"
+                  alt="Documentation" />
+              </div>
+            </div>
+            <div class="ml-4 md:text-center">
+              <div class="flex items-center justify-center lg:block">
+                <img width="96" height="96" class="h-24 w-24 mx-auto hidden md:block lazyload" loading="lazy"
+                  src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Documentation.svg"
+                  data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_110px_Documentation.svg"
+                  alt="Documentation" />
+              </div>
+              <dt class="text-lg leading-6 font-serif text-whitesmoke-500 mt-3">
+                Documentation
+              </dt>
+              <dd class="mt-2 text-base text-lightgrey-500">
+                Submit the required documents and get
+                <br class="hidden md:inline" />
+                enrolled.
+              </dd>
+            </div>
+          </div>
+
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- isa section -->
+<section>
+  <div class="py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p class="mt-5 text-3xl leading-8 font-serif tracking-tight text-bermudagrey-500 sm:text-5xl">
+          We follow the true ISA
+        </p>
+        <p
+          class="mt-4 max-w-xl text-lightgrey-500 mx-auto md:text-3xl mb-1 leading-tight font-medium font-heading text-xl font-serif">
+          “Pay ₹0 until you’re hired”.
+        </p>
+      </div>
+      <div class="mt-16 mb-16">
+        <dl
+          class="space-y-10 md:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-10 lg:divide-x lg:divide-bermudagrey-800">
+          <div class="flex">
+            <img width="592" height="318" class="h-full w-full object-cover rounded-lg lazyload" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_300px_ISA.svg"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_300px_ISA.svg"
+              alt="Pay ₹0 until you’re hired" />
+          </div>
+          <div class="flex items-center justify-center">
+            <div>
+              <dd class="text-base text-lightgrey-500 text-left max-w-md mx-auto ">
+                <p class="text-center lg:text-left">
+                  We mean it when we say it. As per our Income Share Agreement (ISA), you pay nothing
+                  until
+                  you’re
+                  hired with at least ₹5,00,000 salary.</p>
+                <p class="pt-7 text-center lg:text-left">
+                  When you are hired, you only pay 15% of your income towards your ISA. </p>
+              </dd>
+              <div
+                class="mt-5 sm:text-center md:max-w-xl md:mx-auto lg:col-span-6 text-center lg:text-left px-4 lg:px-0">
+                <div class="sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+                  <span class="inline-flex lg:flex rounded-md ">
+                    <a href="/fees"
+                      class="isa-enquiry inline-flex items-center px-8 py-2 text-base leading-6 font-medium rounded-md text-white border border-brightred-500 bg-swamp-500 transition ease-in-out duration-150">
+                      Know More
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- glide program -->
+<section class=" text-lightgrey-500 bg-vulcan-500" id="glide-program">
+  <div>
+    <div class="py-14 px-4 text-center">
+      <div class="w-full max-w-4xl mx-auto">
+        <h2 class="lg:text-5xl md:text-4xl leading-tight font-heading font-serif text-3xl text-bermudagrey-500">
+          Glide Program</h2>
+        <h3 class="md:text-3xl mt-2 mb-2 leading-tight font-medium font-heading text-xl font-serif">Living
+          Allowance
+          for Students</h3>
+      </div>
+      <div class="max-w-3xl mx-auto">
+        <div class="lg:text-center">
+          <p class="mt-4 lg:mx-auto text-base lg:mt-10">
+            For the entire duration of our full-time courses only, we will provide our top performing students
+            with a living allowance of ₹15,000 per month.
+          </p>
+          <div class="flex-shrink-0 mt-5 mb-5 md:hidden">
+            <img width="592" height="318" class="h-48 w-full object-cover rounded-lg lazyload" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_300px_Glide.svg"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_300px_Glide.svg" alt="For the entire duration of our full-time courses, we will provide our top performing students with a
+                  living allowance of ₹15,000 per month." />
+          </div>
+          <p class="mt-5 lg:mx-auto text-base lg:mt-8">
+            We will closely monitor the performance of all our students in Unit-1, or their first month at
+            Masai School, and will evaluate them on the basis of -
+          </p>
+
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-3 mb-3 items-center text-center lg:mt-10">
+            <div>
+              <img width="96" height="96" class="w-24 h-24 rounded-lg mx-auto lazyload" loading="lazy"
+                src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Discipline.svg"
+                data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Discipline.svg"
+                alt="Discipline & Attendance" />
+              <span class="pt-2 font-bold">Discipline & Attendance</span>
+            </div>
+            <div>
+              <img width="96" height="96" class="w-24 h-24 rounded-lg mx-auto lazyload" loading="lazy"
+                src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Performance.svg"
+                data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Performance.svg"
+                alt="Performance in Assignments" />
+              <span class="pt-2 font-bold">Performance in Assignments</span>
+            </div>
+            <div>
+              <img width="96" height="96" class="w-24 h-24 rounded-lg mx-auto lazyload" loading="lazy"
+                src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Scores.svg"
+                data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_Scores.svg"
+                alt="Scores in Assessments" />
+              <span class="pt-2 font-bold">Scores in Assessments</span>
+            </div>
+            <div>
+              <img width="96" height="96" class="w-24 h-24 rounded-lg mx-auto lazyload" loading="lazy"
+                src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_TeamWork.svg"
+                data-src="https://d27028dliefpk3.cloudfront.net/static/Illustration/Illustration_80px_TeamWork.svg"
+                alt="Team Work" />
+              <span class="pt-2 font-bold">Team Work</span>
+            </div>
+          </div>
+          <p class="mt-5 lg:mx-auto text-base">
+            Based on the overall performances, we will choose the top performing students who will be
+            eligible for the living allowance of ₹15,000 per month, which will be added to their ISA amount.
+          </p>
+          <div class="max-w-md lg:max-w-xs mx-auto px-6 mt-8 lg:mt-10">
+            <a href="https://masaischool.medium.com/masai-schools-glide-program-top-50-students-will-get-a-living-stipend-of-rs-15-000-per-month-1e59b262d4c6"
+              target="_blank"
+              class=" glide-program w-full rounded-md py-2 px-4 flex items-center justify-center text-base leading-6 font-bold focus:outline-none focus:shadow-outline transition duration-150 ease-in-out border border-brightred-500 bg-swamp-500 text-whitesmoke-500 shadow-lg">
+              Know More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- leading company section -->
+<section class="mb-5 text-lightgrey-500 border-b border-firefly-500" id="glide-program">
+  <div class="py-14 px-4 text-center">
+    <div class="w-full max-w-xl mx-auto">
+      <h2 class="lg:text-5xl md:text-4xl leading-tight font-heading font-serif text-3xl text-bermudagrey-500">
+        Masai Alumni work at Leading tech companies
+      </h2>
+    </div>
+    <div class="max-w-5xl mx-auto py-4 lg:py-8 mt-5">
+      <div class="lg:text-center">
+        <div class="grid grid-cols-3 md:grid-cols-5 gap-5 mt-3 mb-3 md:gap-x-8 md:gap-y-10 items-center text-center">
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/ShareChat@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/ShareChat@3x.min.png" class="mx-auto w-full lazyload"
+              alt="ShareChat">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy" src="https://d27028dliefpk3.cloudfront.net/static/logos/PayTM@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/PayTM@3x.min.png" class="mx-auto w-full lazyload"
+              alt="PayTM">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/ClearTax@3x.min.jpg"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/ClearTax@3x.min.jpg" class="mx-auto w-full lazyload"
+              alt="ClearTax">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/BharatPe@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/BharatPe@3x.min.png" class="mx-auto w-full lazyload"
+              alt="BharatPe">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy" src="https://d27028dliefpk3.cloudfront.net/static/logos/Vyapar@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Vyapar@3x.min.png" class="mx-auto w-full lazyload "
+              alt="Vyapar">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/RevvSales@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/RevvSales@3x.min.png" class="mx-auto w-full lazyload"
+              alt="RevvSales">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/smallcase@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/smallcase@3x.min.png" class="mx-auto w-full lazyload"
+              alt="smallcase">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy" src="https://d27028dliefpk3.cloudfront.net/static/logos/Airmeet@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Airmeet@3x.min.png" class="mx-auto w-full lazyload"
+              alt="Airmeet">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/Jumbotail@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Jumbotail@3x.min.png" class="mx-auto w-full lazyload"
+              alt="Jumbotail">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/Pagar%20Book@2x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Pagar%20Book@2x.min.png" class="mx-auto w-full lazyload"
+              alt="Pagar book">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy" src="https://d27028dliefpk3.cloudfront.net/static/logos/IBM@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/IBM@3x.min.png" class="mx-auto w-full lazyload"
+              alt="IBM">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/Grey-orange@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Grey-orange@3x.min.png" class="mx-auto w-full lazyload"
+              alt="IBM">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/Global%20Logic@3x.min.jpg"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Global%20Logic@3x.min.jpg"
+              class="mx-auto w-full lazyload" alt="Global Logic">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/Flockjay@3x%20copy.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Flockjay@3x%20copy.min.png"
+              class="mx-auto w-full lazyload" alt="Flockjay">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy" src="https://d27028dliefpk3.cloudfront.net/static/logos/CueMath@3x.min.jpg"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/CueMath@3x.min.jpg" class="mx-auto w-full lazyload"
+              alt="CueMath">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/Instamojo@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Instamojo@3x.min.png" class="mx-auto w-full lazyload"
+              alt="Instamojo">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/UrbanPiper@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/UrbanPiper@3x.min.png" class="mx-auto w-full lazyload"
+              alt="UrbanPiper">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy" src="https://d27028dliefpk3.cloudfront.net/static/logos/MPL@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/MPL@3x.min.png" class="mx-auto w-full lazyload"
+              alt="MPL">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy"
+              src="https://d27028dliefpk3.cloudfront.net/static/logos/UrbanClap@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/UrbanClap@3x.min.png" class="mx-auto w-full lazyload"
+              alt="UrbanClap">
+          </div>
+          <div>
+            <img width="117" height="60" loading="lazy" src="https://d27028dliefpk3.cloudfront.net/static/logos/Eduvanz@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Eduvanz@3x.min.png" class="mx-auto w-full lazyload"
+              alt="Eduvanz">
+          </div>
+          <div class="md:hidden lg:hidden xl:hidden">
+            <img width="117" height="60" loading="lazy" src="https://d27028dliefpk3.cloudfront.net/static/logos/Dunzo@3x.min.png"
+              data-src="https://d27028dliefpk3.cloudfront.net/static/logos/Dunzo@3x.min.png" class="mx-auto w-full lazyload"
+              alt="Dunzo">
+          </div>
+        </div>
+        <div class="max-w-md lg:max-w-xs mx-auto px-6 py-6 lg:py-12 mt-4 lg:mt-10">
+          <a href="/hire-masai-grads" target="_blank"
+            class="w-full rounded-md py-2 px-4 flex items-center justify-center text-base leading-6 font-bold focus:outline-none focus:shadow-outline transition duration-150 ease-in-out border border-brightred-500 bg-swamp-500 text-whitesmoke-500 shadow-lg">
+            Become a Hiring Partner
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- Media Presence -->
+<section>
+  <div class="relative bg-swamp-500 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-24 lg:px-8">
+    <div class="absolute inset-0 mt-7">
+      <div class="bg-swamp-500 h-1/3 sm:h-2/3">
+        <div class="text-center">
+          <p class=" text-3xl leading-8 font-serif tracking-tight text-bermudagrey-500 sm:text-4xl">
+            Media Presence
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto mt-5">
+      <div class="relative mx-auto flex flex-row">
+        <div class="absolute inset-y-0 left-0 z-10 lg:flex items-center hidden">
+          <!-- <button @click="swiper.slidePrev()"
+            class="-ml-2 lg:-ml-5 flex justify-center items-center w-10 h-10 rounded-full focus:outline-none">
+            <svg class="chevron-left w-4 h-4" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.12359 6.81088C0.570535 6.41175 0.570536 5.58825 1.12359 5.18912L7.4148 0.648831C8.07616 0.171533 9 0.644109 9 1.45972L9 10.5403C9 11.3559 8.07616 11.8285 7.4148 11.3512L1.12359 6.81088Z"
+                fill="#6C8D9E" />
+            </svg>
+          </button> -->
+        </div>
+
+        <div class="swiper-container slider-media">
+          <div class="swiper-wrapper pb-10">
+            <!-- Slides -->
+            <div class="swiper-slide md:p-4">
+              <div class="flex flex-col rounded-md shadow overflow-hidden">
+                <div class="flex text-center items-center relative bg-firefly-500">
+                  <a href="https://yourstory.com/2020/03/turning-point-coding-bootcamp-masai-school">
+                    <div class="p-4">
+                      <h4 class="text-lg leading-6 font-medium text-lightgrey-500 text-center">
+                        A trip to Tanzania led to the launch of coding bootcamp Masai School
+                      </h4>
+                    </div>
+                    <div class="flex items-end longestar text-lg px-6 text-center w-full py-5 bg-opacity-10">
+                      <img width="128" height="59" class="text-center mx-auto p-2 w-32 lazyload" loading="lazy"
+                        src="https://d27028dliefpk3.cloudfront.net/static/media-icon/YourStory@3x.min.png"
+                        data-src="https://d27028dliefpk3.cloudfront.net/static/media-icon/YourStory@3x.min.png" alt="yourstory">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide md:p-4">
+              <div class="flex flex-col rounded shadow overflow-hidden">
+                <div class="flex text-center items-center relative bg-firefly-500">
+                  <a
+                    href="https://timesofindia.indiatimes.com/city/bengaluru/you-dont-have-to-be-a-cs-graduate-to-be-a-good-coder/articleshow/76729900.cms">
+                    <div class="p-4">
+                      <h4 class="text-lg leading-6 font-medium text-lightgrey-500 text-center">
+                        You don’t have to be a CS graduate to be a good coder
+                      </h4>
+                    </div>
+                    <div class="flex items-end longestar text-lg px-6 text-center w-full py-5 bg-opacity-10">
+                      <img width="128" height="59" class="text-center mx-auto p-2 w-32 lazyload" loading="lazy"
+                        src="https://d27028dliefpk3.cloudfront.net/static/media-icon/TOI@3x.min.png"
+                        data-src="https://d27028dliefpk3.cloudfront.net/static/media-icon/TOI@3x.min.png" alt="timesofindia">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide md:p-4">
+              <div class="flex flex-col rounded shadow overflow-hidden ">
+                <div class="flex text-center items-center relative bg-firefly-500">
+                  <a
+                    href="https://www.forbesindia.com/article/edtech-special/these-039jobcentred-universities039-guarantee-placements/57833/1">
+                    <div class="p-4">
+                      <h4 class="text-lg leading-6 font-medium text-lightgrey-500 text-center">
+                        These 'Job-centred universities' guarantee placements
+                      </h4>
+                    </div>
+                    <div class="flex items-end longestar text-lg px-6 text-center w-full py-5 bg-opacity-10">
+                      <img width="128" height="59" class="text-center mx-auto p-2 w-32 lazyload" loading="lazy"
+                        src="https://d27028dliefpk3.cloudfront.net/static/media-icon/Forbes@3x.min.png"
+                        data-src="https://d27028dliefpk3.cloudfront.net/static/media-icon/Forbes@3x.min.png" alt="forbes india">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide md:p-4">
+              <div class="flex flex-col rounded shadow overflow-hidden ">
+                <div class="flex text-center items-center relative bg-firefly-500">
+                  <a
+                    href="https://www.indiatoday.in/education-today/news/story/this-iit-kanpur-alumni-built-a-coding-school-in-bangalore-which-enrols-students-for-free-1560516-2019-07-03">
+                    <div class="p-4">
+                      <h4 class="text-lg leading-6 font-medium text-lightgrey-500 text-center">
+                        How women with no computer background land plum jobs
+                      </h4>
+                    </div>
+                    <div class="flex items-end longestar text-lg px-6 text-center w-full py-5 bg-opacity-30">
+                      <img width="128" height="59" class="text-center mx-auto p-2 w-32 lazyload" loading="lazy"
+                        src="https://d27028dliefpk3.cloudfront.net/static/media-icon/TheHindu@3x.min.png"
+                        data-src="https://d27028dliefpk3.cloudfront.net/static/media-icon/TheHindu@3x.min.png" alt="the hindu">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination swiper-pagination-white"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination swiper-pagination-white md:hidden"></div>
+        <div class="absolute inset-y-0 right-0 z-10 lg:flex items-center hidden">
+          <!-- <button @click="swiper.slideNext()"
+            class="-mr-2 lg:-mr-6 flex justify-center items-center w-10 h-10 rounded-full focus:outline-none">
+            <svg viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="chevron-right w-4 h-4">
+              <path
+                d="M7.87641 5.18912C8.42947 5.58825 8.42946 6.41175 7.8764 6.81088L1.5852 11.3512C0.923839 11.8285 -8.00369e-07 11.3559 -8.10095e-07 10.5403L-9.1838e-07 1.45972C-9.28106e-07 0.644109 0.923841 0.171535 1.5852 0.648833L7.87641 5.18912Z"
+                fill="#6C8D9E" />
+            </svg>
+          </button> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- bottom CTA -->
+<section
+  class="bg-firefly-500 lg:bg-gradient-to-r from-darkfirefly-400 via-purplebrown-500 to-brightred-600 py-5 lg:py-10">
+  <div class="mx-auto max-w-screen-xl">
+    <div class="flex items-center justify-center md:h-64 h-56">
+      <div class="flex-1 text-whitesmoke-700 text-center py-2 m-2">
+        <h2 class="tracking-tight leading-10 text-whitesmoke-500 text-3xl sm:leading-none md:text-5xl font-serif ">
+          Ready to crack the code?
+        </h2>
+        <div class="mt-10">
+          <span class="inline-flex rounded-md shadow-md">
+            <a href="https://admissions.masaischool.com/auth/apply"
+              class="applynow-btn inline-flex items-center px-8 py-3 text-base leading-6 font-medium rounded-md text-white bg-gradient-to-r from-bloodred-500 to-brightred-500  hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150">
+              Apply Now
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- component -->
+<footer class="bg-vulcan-500 mt-0">
+  <div class="max-w-screen-xl mx-auto py-4 px-4 sm:px-6 lg:py-12 lg:px-8">
+    <dl
+      class="space-y-5 sm:space-y-0 sm:grid sm:grid-cols-2 sm:col-gap-6 sm:row-gap-12 lg:grid-cols-3 lg:col-gap-8 justify-items-center">
+      <div class="flex space-x-3">
+        <div class="space-y-2 text-lightgrey-500 border-b border-firefly-500 px-4 pb-2 md:py-3 w-full md:border-none">
+          <div class="md:hidden">
+            <button onclick="toggleFooterSection(event)"
+              class="uppercase text-base font-bold tracking-wider flex justify-center text-lightgrey-500 focus:outline-none py-2 w-full text-center"
+              type="button">
+              Company
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 25">
+                <path fill="#CECECE"
+                  d="M12.81 15.053c-.398.553-1.222.553-1.62 0L8.813 11.76c-.477-.66-.005-1.585.81-1.585h4.751c.816 0 1.288.924.811 1.585l-2.375 3.292z" />
+              </svg>
+            </button>
+          </div>
+          <span class="uppercase text-md font-bold tracking-wider text-bermudagrey-500 hidden md:block">Company</span>
+          <article class="h-0 md:h-auto -mt-4 md:mt-0 overflow-hidden">
+            <ul class="my-5 text-base tracking-wide text-center lg:text-left">
+              <li class="my-3 tracking-wide">
+                <a href="/about">About</a>
+              </li>
+              <li class="my-3 tracking-wide">
+                <a href="/media">Newsroom</a>
+              </li>
+              <li class="my-3 tracking-wide">
+                <a href="/terms">Terms of Service</a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <div class="flex space-x-3">
+        <div class="space-y-2 text-lightgrey-500  border-b border-firefly-500 px-4 pb-2 md:py-3 w-full md:border-none">
+          <div class="md:hidden">
+            <button onclick="toggleFooterSection(event)"
+              class="uppercase text-base font-bold tracking-wider flex justify-center text-lightgrey-500 focus:outline-none py-2  w-full text-center"
+              type="button">
+              Students Resources
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 25">
+                <path fill="#CECECE"
+                  d="M12.81 15.053c-.398.553-1.222.553-1.62 0L8.813 11.76c-.477-.66-.005-1.585.81-1.585h4.751c.816 0 1.288.924.811 1.585l-2.375 3.292z" />
+              </svg>
+
+            </button>
+          </div>
+          <span class="uppercase text-base font-bold tracking-wider text-bermudagrey-500 hidden md:block">
+            Students Resources
+          </span>
+          <article class="h-0 md:h-auto -mt-4 md:mt-0 overflow-hidden">
+            <ul class="my-5 text-base tracking-wide text-center lg:text-left">
+              <li class="my-3 tracking-wide">
+                <a class="isa-enquiry" href="/fees">Fees & ISA</a>
+              </li>
+              <li class="my-3 tracking-wide">
+                <a class="faqs" href="/faq">FAQ</a>
+              </li>
+              <li class="my-3 tracking-wide">
+                <a href="/contact">Contact</a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+      <div class="flex space-x-3">
+        <div class="space-y-2 text-lightgrey-500  border-b border-firefly-500 px-4 pb-2 md:py-3 w-full md:border-none">
+          <div class="md:hidden">
+            <button onclick="toggleFooterSection(event)"
+              class="uppercase text-md font-bold tracking-wider flex justify-center text-lightgrey-500 focus:outline-none py-2  w-full text-center"
+              type="button">
+              OPPORTUNITIES
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 25">
+                <path fill="#CECECE"
+                  d="M12.81 15.053c-.398.553-1.222.553-1.62 0L8.813 11.76c-.477-.66-.005-1.585.81-1.585h4.751c.816 0 1.288.924.811 1.585l-2.375 3.292z" />
+              </svg>
+            </button>
+          </div>
+          <span class="uppercase text-md font-bold tracking-wider text-bermudagrey-500 hidden md:block">
+            OPPORTUNITIES
+          </span>
+          <article class="h-0 md:h-auto -mt-4 md:mt-0 overflow-hidden">
+            <ul class="my-5 text-base tracking-wide text-center lg:text-left">
+              <li class="my-3 tracking-wide">
+                <a class="masai-hiring" href="https://angel.co/company/masai-school/jobs" target="_blank">We're
+                  Hiring</a>
+              </li>
+              <li class="my-3 tracking-wide">
+                <a class="external-coaches" href="/mentors">Our Coaches</a>
+              </li>
+              <li class="my-3 tracking-wide">
+                <a class="become-a-coach" href="/become-coach">Become a Coach</a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+      <div class="space-x-3 md:hidden">
+        <div class="space-y-2 text-lightgrey-500  border-b border-firefly-500 px-4 pb-2 md:py-3 w-full md:border-none">
+          <div class="md:hidden">
+            <button onclick="toggleFooterSection(event)"
+              class="uppercase text-md font-bold tracking-wider flex justify-center text-lightgrey-500 focus:outline-none py-2 w-full text-center"
+              type="button">
+              Follow US
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 25">
+                <path fill="#CECECE"
+                  d="M12.81 15.053c-.398.553-1.222.553-1.62 0L8.813 11.76c-.477-.66-.005-1.585.81-1.585h4.751c.816 0 1.288.924.811 1.585l-2.375 3.292z" />
+              </svg>
+            </button>
+          </div>
+          <span class="uppercase text-md font-bold tracking-wider text-bermudagrey-500 hidden md:block">
+            Follow US
+          </span>
+          <article class="h-0 md:h-auto -mt-4 md:mt-0 overflow-hidden">
+            <ul class="my-5 text-base tracking-wide text-center lg:text-left">
+              <li class="my-3 tracking-wide social-media">
+                <a href="https://twitter.com/masaischool" target="_blank">Twitter</a>
+              </li>
+              <li class="my-3 tracking-wide social-media">
+                <a href="https://www.facebook.com/masaischool/" target="_blank">Facebook</a>
+              </li>
+              <li class="my-3 tracking-wide social-media">
+                <a href="https://www.linkedin.com/company/masai-school/" target="_blank">Linkedin</a>
+              </li>
+              <li class="my-3 tracking-wide social-media">
+                <a href="https://www.instagram.com/masaischool/" target="_blank">Instagram</a>
+              </li>
+              <li class="my-3 tracking-wide social-media">
+                <a href="https://github.com/masai-school" target="_blank">Github</a>
+              </li>
+              <li class="my-3 tracking-wide social-media">
+                <a href="https://www.youtube.com/channel/UCENOACKQiqejXP-bb9sCnMg?view_as=subscriber"
+                  target="_blank">Youtube</a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </dl>
+  </div>
+
+  <div
+    class="hidden md:block  max-w-screen-lg mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 md:border-t md:border-firefly-500 ">
+    <div class="flex justify-center">
+      <span class="uppercase text-bermudagrey-500 text-sm font-bold">FOLLOW US:</span>
+
+      <a href="https://twitter.com/masaischool" class="ml-8 text-gray-400 hover:text-gray-500" target="_blank">
+        <span class="sr-only">Twitter</span>
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+          <path
+            d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+        </svg>
+      </a>
+      <a href="https://www.facebook.com/masaischool/" class="ml-8 text-gray-400 hover:text-gray-500" target="_blank">
+        <span class="sr-only">Facebook</span>
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+          <path fill-rule="evenodd"
+            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+            clip-rule="evenodd" />
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/company/masai-school/" class="ml-8 text-gray-400 hover:text-gray-500"
+        target="_blank">
+        <span class="sr-only">Linkedin</span>
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 512 512">
+          <title>Linkedin</title>
+          <path
+            d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z">
+          </path>
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/masaischool/" class="ml-8 text-gray-400 hover:text-gray-500" target="_blank">
+        <span class="sr-only">Instagram</span>
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+          <path fill-rule="evenodd"
+            d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+            clip-rule="evenodd" />
+        </svg>
+      </a>
+
+      <a href="https://github.com/masai-school" class="ml-8 text-gray-400 hover:text-gray-500" target="_blank">
+        <span class="sr-only">GitHub</span>
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+          <path fill-rule="evenodd"
+            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+            clip-rule="evenodd" />
+        </svg>
+      </a>
+      <a href="https://www.youtube.com/channel/UCENOACKQiqejXP-bb9sCnMg?view_as=subscriber"
+        class="ml-8 text-gray-400 hover:text-gray-500" target="_blank">
+        <span class="sr-only">Youtube</span>
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 512 512">
+          <title>Youtube</title>
+          <path
+            d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z">
+          </path>
+        </svg>
+      </a>
+
+    </div>
+  </div>
+  <div class="max-w-screen-lg mx-auto py-6 px-4 overflow-hidden sm:px-6 lg:px-8 md:border-t md:border-firefly-500">
+    <div class="flex flex-col md:flex-row md:justify-between text-lightgrey-500 text-sm pt-2 pb-2 w-full">
+      <div>
+        <p class="leading-8 tracking-wide">
+          &copy; 2021 by Masai School
+        </p>
+      </div>
+      <div>
+        <p class="leading-8 tracking-wide underline">
+          <a href="/privacy">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script async src="//www.google-analytics.com/analytics.js"></script>
+<script src="/public/build/main.js"></script>
+<script src="/public/build/lazyloader.js" async></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+<script src="/public/build/analytics.js" defer></script>
+<script>
+// footer
+function toggleFooterSection(e) {
+  const list = e.target.parentElement.parentElement.querySelector("article");
+  if (list.classList.contains("h-0")) {
+    list.classList.remove("h-0");
+  } else {
+    list.classList.add("h-0");
+  }
+}
+</script>
+<script>
+window.ga =
+  window.ga ||
+  function() {
+    (ga.q = ga.q || []).push(arguments);
+  };
+ga.l = +new Date();
+ga('create', 'UA-143003758-1');
+ga('set', 'transport', 'beacon');
+ga('set', 'page', window.location.pathname);
+ga('set', 'dimension5', '3');
+ga('send', 'pageview');
+</script>
+<!-- End Google Tag Manager -->
+<noscript>
+  You need to enable JavaScript to run this app.
+</noscript>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe loading="lazy" src="https://www.googletagmanager.com/ns.html?id=GTM-PTP9WCB" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+
+</html>

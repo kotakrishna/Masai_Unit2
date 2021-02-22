@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            align-items: center;
+        }
+        table{
+            text-align: center;
+            align-items: center;
+            margin:30px auto;
+            width: 750px;
+        }
+        thead{
+            display: flexbox;
+        }
+        select{
+            width:200px;
+            height: 40px;
+            text-align: center;
+            align-self: center;
+        }
+        #output{
+            display:flex;
+            align-items: center;
+            align-self: center;
+            width: 400px;
+            height: 300px;
+            margin: 10px auto;
+            border: 1px solid black;
+            display: block;
+            padding: 1%;
+        }
+        input{
+            margin:10px ;
+        }
+        #output1{
+            display: none;
+            /* align-items: center;
+            align-self: center;
+            width: 500px;
+            margin: auto;
+            border: 1px solid black;
+            display: block; */
+        }
+        #output>div{
+            margin: 10px;
+        }
+        /* input{
+            width: 200px;
+            margin: 10px;
+        } */
+        
+        /* img{
+            
+        } */
+        .one{
+            content: url(https://via.placeholder.com/168x60);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Select the movie which you want to review </h2>
+    </div>
+    <div class="input">
+        <select name="" id="input">
+            <option value="1"
+            title="The Shawshank Redemption" name="The Shawshank Redemption">The Shawshank Redemption</option>
+        
+            <option value="2" title="The Godfather 1" name="The Godfather 1">The Godfather 1</option>
+
+            <option value="3" name="The Godfather 2" title="The Godfather 2">The Godfather 2</option>
+
+            <option value="4" title="The Dark Knight">The Dark Knight</option>
+
+            <option value="5" title="12 Angry Name">12 Angry Men</option>
+
+            <option value="6" title="Schindler's List">Schindler's List </option>
+
+            <option title="The Lord of the Rings" value="7">The Lord of the Rings</option>
+
+            <option value="8" title="Pulp Fiction">Pulp Fiction</option>
+
+            <option title="The Good, the Bad and the Ugly" value="9">The Good, the Bad and the Ugly</option>
+
+            <option title="Fight Club" value="10">Fight Club</option>
+            <option title="" value="11"></option>
+        </select>
+    </div>
+    <div  id="output">
+        <div >
+            <img id="img" class="one" src="" alt="unknow">
+        </div>
+        <div>
+            <label for="">Rating</label>
+            <input placeholder="up to five" id="rating" type="number">
+            <br>
+            <label  for="">Feedback</label>
+            <input placeholder="Your valueable Feedback" id="feedback" type="text">
+            <div><h3>Would you like to watch it again</h3>
+        <div type="checkbox" id="checkbox">
+            <input type="checkbox" class="rw" checked value=true>Yes</input>
+            <input type="checkbox" class="rw" title="1" value=false>NO</input>
+        </div>
+            <br>
+            <input id="submit" type="submit">
+        </div>
+        </div>
+     </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Movie Id</th>
+                <th>Movie Name</th>
+                <th>Movie Rating out of 5</th>
+                <th>Movie Feedback</th>
+                <th>Movie Re-Watchablity</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+
+        </tbody>
+    </table>
+
+    <script>
+        var option =document.querySelectorAll("option")
+        var count=localStorage.getItem("count")
+// getting the movie name and other
+        function x(){
+            count++
+            localStorage.setItem("input", z.value)
+            localStorage.setItem("movie",option[z.value].title)
+        }
+        var z=document.getElementById("input")
+        z.addEventListener("click",x)
+        var ary=[]
+        if(JSON.parse(localStorage.getItem("array"))!=null){
+            ary=JSON.parse(localStorage.getItem("array"))
+        }
+
+// storing the values in local storage
+        function submit(){
+            count++
+            localStorage.setItem("count",count)
+            var rating=document.getElementById("rating").value
+            var feedback=document.getElementById("feedback").value
+            var ch=document.getElementById("checkbox")
+            var rw=document.getElementsByClassName("rw")
+            
+            function CreateOBJ(number,name,movieR,fb,rw){  //creating the object of the input rating
+                this.number=number,
+                this.name=name,
+                this.mR=movieR,
+                this.fb=fb,
+                this.rw=rw
+            }
+            var  x= new CreateOBJ(z.value,option[z.value-1].title,rating,feedback,(rw[0].checked))
+            var y=JSON.stringify(x)  //storing it in JSON format
+            ary.push(x)
+            localStorage.setItem("the Review",y)
+            var aryx=JSON.stringify(ary)
+        localStorage.setItem("array",aryx)          // storing it in form of array of obj
+        }
+        var enter=document.getElementById("submit")
+        enter.addEventListener("click",submit)
+        enter.addEventListener("click",table)
+        
+
+
+// the table is creat for each enter
+        var table=document.getElementById("table")
+    function table(){
+        if(count>=0){
+       
+            var tr=document.createElement("tr")
+            var obj=JSON.parse(localStorage.getItem("the Review"))
+            for( i in obj){
+
+                var td=document.createElement("td")
+                td.innerHTML=obj[i]
+                tr.appendChild(td)
+    
+             }
+             table.appendChild(tr)
+            }   
+    }
+    count=localStorage.getItem("count")
+    console.log(count);
+    
+
+    // this is to creat table even if the overall page is refreshered
+    if(count>1 && JSON.parse ((localStorage.getItem("array")))!=null ){
+        var zyx= JSON.parse ((localStorage.getItem("array")))
+    console.log(zyx);
+        for(var ar =0;ar<zyx.length;ar++){
+            var x=(zyx[ar])
+            var tr=document.createElement("tr")
+            var obj=JSON.parse(localStorage.getItem("the Review"))
+            for( i in x){
+                var td=document.createElement("td")
+                td.innerHTML=x[i]
+                tr.appendChild(td)
+             }
+             table.appendChild(tr)
+            }
+        }
+    
+        
+    </script>
+</body>
+</html>

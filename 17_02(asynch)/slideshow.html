@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 1000px;
+            margin: auto;
+        }
+        body>div{
+            margin: auto;
+            align-self: center;
+            align-items: center;
+            margin-left: 30%;
+        }
+        #start{
+            width: 200px;
+            height: 40px;
+            background-color: green;
+        }
+        #stop{
+            width: 200px;
+            height: 40px;
+            background-color: red;
+        }
+        img{
+            align-self: center;
+            width:100%;
+            margin: 10% auto;
+            /* margin-left: 40%; */
+            align-items: center;
+        }
+        .one{
+            content: url(http://placekitten.com/g/600/400);
+        }
+        .two{
+            content: url(https://placedog.net/500/280);
+        }
+        .three{
+            content: url(https://placedog.net/500/580);
+        }
+        .four{
+            content: url(http://placekitten.com/g/600/300);
+        }
+        .five{
+            content: url(https://placedog.net/680/300);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img id="img" class="two" src="" alt="">
+    </div>
+    <div>
+        <button id="start">start</button>
+        <button id="stop">stop</button>
+    </div>
+    
+    <script>
+
+        var count=0
+        var img =document.getElementById("img")
+        function start(){
+       var x=setInterval(function(){
+
+            count++
+            if(count%5==0){
+                img.setAttribute("class","five")
+            }else if(count%4==0){
+                img.setAttribute("class","four")
+            
+            }else if(count%3==0){
+                img.setAttribute("class","three")
+            
+            }else if(count%2==0){
+
+                img.setAttribute("class","two")
+            }else if(count%1==0){
+                img.setAttribute("class","one")
+            }else{
+                img.setAttribute("class","two")
+            }
+    function stop1(){
+        clearInterval(x)
+        console.log("theom");
+    }
+    var stp=document.getElementById("stop")
+        stp.addEventListener("click",stop1)
+    },3000)
+
+}
+
+        var str=document.getElementById("start")
+        str.addEventListener("click",start)
+        // var stp=document.getElementById("stop")
+        // stp.addEventListener("click",stop1)
+    </script>
+</body>
+</html>

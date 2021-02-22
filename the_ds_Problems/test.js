@@ -1,43 +1,78 @@
-var x="xxaaayy"
+function runProgram(input) {
+    var arr = input.trim().split(/[\r\n]+/)
+    var t = arr[0].trim().split(" ").map(Number)
+    var j = 1
+    for (var i = 1; i <= t; i++) {
+        var row_column = arr[j].trim().split(" ").map(Number)
+        var row = row_column[0]
+        var column = row_column[1]
+        var shape = []
+        for (var k = 0; k < row; k++) {
+            var r1 = arr[++j].trim().split(" ")
+            shape.push(r1)
+        }
+        console.log(shape);
+        j = j + 1
 
+        var count = 0
+        if (row == 1 && column == 1) {
+            var ele = shape[0][0]
 
-var ary=[]
-for(var i=0;i<x.length;i++){
-    for(var j=0;j<x.length;j++){
-        var y= x.slice(i,x.length-j)
-        ary.push(y)
+            if (ele != "a" && ele != "e" && ele != "i" && ele != "o" && ele != "u") {
+                count++
+            }
+            console.log(count)
+        } else if (row % 2 == 1 && row != 1 && (row - column) == (column - 1)) {
+            var m = 0,
+                n = column - 1
+
+            while (m < row && n >= 0) {
+                var ele = shape[m][n]
+
+                if (ele != "a" && ele != "e" && ele != "i" && ele != "o" && ele != "u") {
+                    count++
+                }
+                m++
+                n--
+            }
+            n = 1
+            while (m < row && n < column) {
+                var ele = shape[m][n]
+                if (ele != "a" && ele != "e" && ele != "i" && ele != "o" && ele != "u") {
+                    count++
+                }
+                m++
+                n++
+            }
+            console.log(count)
+        } else {
+            console.log(-1)
+        }
     }
 }
 
-var ary2=[]
 
-for(var j=0;j<ary.length;j++){
-var str=ary[j]
-var rev_str=""
-
-if(str.length>=2){
-    for(var s=str.length-1;s>=0;s--){
-
-        rev_str= rev_str + str[s]
-
+function alternate_sum(num_arr) {
+    var sum = 0
+    for (var i = 0; i < num_arr.length; i = i + 2) {
+        sum = sum + num_arr[i]
     }
-    if( str==rev_str){
-        ary2.push(str)
-    }
-}
+    return sum
 }
 
-// console.log(ary2);
+process.stdin.resume();
+process.stdin.setEncoding("ascii");
+let read = "";
+process.stdin.on("data", function (input) {
+    read += input;
+});
+process.stdin.on("end", function () {
+    read = read.replace(/\n$/,"")
+   runProgram(read);
+});
 
-var max=0
-var index=0
-for( var l=0;l<ary2.length;l++){
-    var str=ary2[l]
-    if(max<str.length){
-        max=str.length
-        index=l;
-    }
-}
-// console.log(max);
-console.log(ary2[index]);
-
+process.on("SIGINT", function () {
+    read = read.replace(/\n$/,"")
+    runProgram(read);
+    process.exit(0);
+});

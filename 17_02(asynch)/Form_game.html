@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Game</title>
+    <style>
+        body>div{
+            width: 400px;
+            margin: 20px auto;
+        }
+        form{
+            clear: both;
+            text-align:left;
+            font-size: 20px;
+        }
+        input{
+            width: 200px;
+            height: 20px;
+            margin: 15px auto ;
+        }
+        #timing{
+            float:left;
+        }
+        .name{
+            width:800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="name"><h1>You Need To Enter The Input Before The Timmer Ends</h1></div>
+    <div id="timing">
+       <h1>The Timer : <h1 id="timmer"></h1></h1>
+    </div>
+    <div>
+        <form action="">
+            <label for="">Name</label>
+            <input type="text">
+            <br>
+            <label for="">Age</label>
+            <input type="text">
+            <br>
+            <label for="">Class</label>
+            <input type="text">
+            <br>
+            <label for="">Father Name</label>
+            <input type="text">
+            <br>
+            <label for="">Mother Name</label>
+            <input type="text">
+            <br>
+            <label for="">Sister Name</label>
+            <input type="text">
+            <br>
+            <label for="">Favourite</label>
+            <input type="text">
+            <br>
+            <input type="submit" name="" id="submit">
+        </form>
+    </div>
+</body>
+<script>
+    var input=document.querySelectorAll("input")
+    var submit=document.getElementById("submit")
+    var count=15;
+    var h1=document.getElementById("timmer")
+    function input1(){
+        for(var i=0;i<input.length-1;i++){
+            event.preventDefault()
+            localStorage.setItem(i,input[i].value)
+        }   
+    }
+    var tim=setInterval(function(){
+        count--;
+        h1.innerHTML=count
+        if(count<=0){
+            clearInterval(tim)
+        }
+    },1000)
+    var x=setTimeout(function(){
+        if(submit.click!=1){
+            alert("the time ended and you LOST")
+            for(var i=0;i<input.length-1;i++){
+                localStorage.setItem(i,input[i].value)
+                console.log(input[i].value);
+            }
+        }
+    },15000)
+    function stop1(){
+        alert("Congratulations You WON")
+        clearTimeout(x)
+        clearInterval(tim)
+    }
+    submit.addEventListener("click",stop1)
+    submit.addEventListener("click",input1)
+</script>
+</html>

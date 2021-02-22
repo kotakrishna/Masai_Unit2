@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            margin: auto;
+            align-items: center;
+        }
+        div{
+            text-align: center;
+            align-items: center;
+            width: 10%;
+            margin: 30px 40%;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <select  name="" id="script">
+        <option onclick =get_data() value="">GET DATA</option>
+        <option onclick=post_data() value="">POST DATA</option>
+        <option onclick=put_data() value="">PUT DATA</option>
+        <option onclick=del_data() value="">DELETE DATA</option>
+    </select>
+    <br>
+    <input type="submit" id="submit">
+</div>
+    <p id="output"></p>
+    <script src="API_UI.js"></script>
+</body>
+</html>

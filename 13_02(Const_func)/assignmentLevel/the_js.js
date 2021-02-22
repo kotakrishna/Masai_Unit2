@@ -9,9 +9,7 @@ function Student(name,age,number,city){
     this.number=number
     this.city=city
 }
-// for(var i=0;i<inputs.length;i++){
-//     console.log(inputs[i].value);
-// }
+
 var task=new Student(inputs[0].value,inputs[1].value,inputs[2].value,inputs[3].value)
 
 console.log(task);
