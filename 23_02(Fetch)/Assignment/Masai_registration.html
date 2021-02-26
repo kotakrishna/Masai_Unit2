@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Registration</title>
+</head>
+<body>
+    <div>
+        <h2>The Registration form</h2>
+        <form action="">
+            <label for="">Name</label>
+            <br>
+            <input type="text" name="" id="Name">
+            <br>
+            <label for="">Email</label>
+            <br>
+            <input type="email" name="" id="email">
+            <br>
+            <label for="">Password</label>
+            <br>
+            <input type="password" name="" id="password">
+            <br>
+            <label for="">User Name</label>
+            <br>
+            <input type="text" name="" id="User_name">
+            <br>
+            <label for="">Phone Number</label>
+            <br>
+            <input type="number" name="" id="ph">
+            <br>
+            <label for="">Description</label>
+            <br>
+            <input type="text" name="" id="desp">
+            <br>
+            <input type="submit" name="" id="submit">
+            <br>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <form action="">
+            <label for="">User Name</label>
+            <br>
+            <input type="text" name="" id="lg_userName">
+            <br>
+            <label for="">Password</label>
+            <br>
+            <input type="password" name="" id="lg_password">
+            <br>
+            <input type="submit" name="" id="lg_submit">
+        </form>
+    </div>
+    <script>
+        var Name=document.getElementById("Name")
+        var Email=document.getElementById("email")
+        var Password=document.getElementById("password")
+        var UserN=document.getElementById("User_name")
+        var Phone=document.getElementById("ph")
+        var Desp=document.getElementById("desp")
+        var submit=document.getElementById("submit")
+        var lg_submit=document.getElementById("lg_submit")
+        var lg_userName=document.getElementById("lg_userName")
+        var lg_password=document.getElementById("lg_password")
+
+
+        var call = function(){
+            event.preventDefault()
+            var Registration= function(Name,Email,Password,UserN,Phone,Desp){
+                this.name=Name
+                this.email=Email
+                this.password=Password
+                this.username=UserN
+                this.mobile=Phone
+                this.description=Desp
+            }
+
+            var user= new Registration(Name.value,Email.value,Password.value,UserN.value,Phone.value,Desp.value)
+
+
+            console.log(user);
+
+            user= JSON.stringify(user)
+            fetch("https://masai-api-mocker.herokuapp.com/auth/register",{
+                method:"POST",
+                headers:{
+                    'Content-Type':'application/json'
+                } ,
+                body:user
+            }).then(res=>res.json()).then(resp=>console.log(resp))
+        }
+
+        submit.onclick=call
+        var check=function (){
+            event.preventDefault()
+            var Login_val =function(username,password){
+                this.username=username
+                this.password=password
+            }
+
+            var login = new Login_val(lg_userName.value,lg_password.value)
+
+            console.log(login)
+
+            login=JSON.stringify( login)
+
+            fetch("https://masai-api-mocker.herokuapp.com/auth/login",{
+                method:"POST",
+                body:login,
+                headers:{
+                    'Content-Type':'application/json'
+                }
+            }).then(res=>res.json()).then(json=>{console.log(json)
+            getvalue(json.token)})
+
+           
+
+        }
+        var getvalue= function(token){
+            var url="https://masai-api-mocker.herokuapp.com/user/"+ lg_userName.value
+            console.log(url);
+            fetch(url,{
+                headers:{
+                    'Authorization':`Bearer ${token}`
+                },
+                // mode:"no-cors"
+            }).then((res)=>{
+                  res.json().then((resp)=>{
+                    console.log(resp)
+                        })
+                })
+        }
+        lg_submit.onclick=check
+    </script>
+</body>
+</html>
+
+

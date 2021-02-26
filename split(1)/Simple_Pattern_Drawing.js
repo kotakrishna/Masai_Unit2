@@ -10,7 +10,7 @@ function runProgram(input){
                 output=output+"#"
             }
             var output1=""
-            for(var j=0;j<width;j++){
+            for(var j=0;j<width-1;j++){
                 output1=output1+"."
             }
 

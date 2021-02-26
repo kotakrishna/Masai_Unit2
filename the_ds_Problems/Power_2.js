@@ -1,26 +1,21 @@
 function runProgram(input){
-    input=input.split(" ").map(Number)
-    var n=input[0]
-    var m=input[1]
-    var count=0
-    var ar=[]
-
-    for(var i=0;i<100;i++){
-        for(var j=0;j<100;j++){
-            // console.log(i,j);
-            if(i**2+j<=n && j**2+i<=m){
-                if(i**2+j==n && j**2+i==m){
-                    count++
-                    ar.push(i,j,"*")
-                }
-                
-            }else{
+    input=input.split(/[\r\n]+/)
+    var test=Number(input[0])
+    for(i=1;i<=test;i++){
+        var count=0
+        var number=Number(input[i])
+        for(var j=1;j<=10;j++){
+            if(number/(2**j)==1){
+                console.log("True")
+                count++
                 break
             }
         }
+        if(count==0){
+            console.log("False")
+            // break
+        }
     }
-    console.log(count);
-    
 }
 
 process.stdin.resume();

@@ -1,63 +1,72 @@
-function runProgram(input) {
-    var arr = input.trim().split(/[\r\n]+/)
-    var t = arr[0].trim().split(" ").map(Number)
-    var j = 1
-    for (var i = 1; i <= t; i++) {
-        var row_column = arr[j].trim().split(" ").map(Number)
-        var row = row_column[0]
-        var column = row_column[1]
-        var shape = []
-        for (var k = 0; k < row; k++) {
-            var r1 = arr[++j].trim().split(" ")
-            shape.push(r1)
-        }
-        console.log(shape);
-        j = j + 1
-
-        var count = 0
-        if (row == 1 && column == 1) {
-            var ele = shape[0][0]
-
-            if (ele != "a" && ele != "e" && ele != "i" && ele != "o" && ele != "u") {
-                count++
-            }
-            console.log(count)
-        } else if (row % 2 == 1 && row != 1 && (row - column) == (column - 1)) {
-            var m = 0,
-                n = column - 1
-
-            while (m < row && n >= 0) {
-                var ele = shape[m][n]
-
-                if (ele != "a" && ele != "e" && ele != "i" && ele != "o" && ele != "u") {
+function runProgram(input){
+    input=input.split(/[\r\n]+/)
+    var K=input[0].split(" ").map(Number)
+    var L=[]
+    for(var i=1;i<=K[0];i++){
+        L.push(input[i].split(" ").map(Number))
+    }
+    // console.log(Z);
+    var len=K[1]
+    var val=K[2]
+    var count=0
+    var sum=0
+    var cl_sum=0
+    // for(var j=0;j<=1;j++){
+    //     if(L[j][0]+L[j+1][0]==val){
+    //         console.log(L[j][0]);
+    //         break
+    //     }
+    // }
+    // console.log(l0,l1,l2);
+    // var L=[l0,l1,l2]
+    var di_sum=0
+    var hr_sum=0
+    var vr_sum=0
+    for(var i=0;i<K[0];i++){
+        for(var j=0;j<K[1];j++){
+            if(i-3>0 &&j-3>0){
+                hr_sum=L[i][0]+L[i][0+1]+L[i][0+2]
+                vr_sum=L[i][0]+L[i+1][0]+L[i+2][0]
+                di_sum=L[i][0]+L[i+1][0+1]+L[i+2][0+2]
+                if(hr_sum==val){
+                    hr_sum=0;
                     count++
                 }
-                m++
-                n--
-            }
-            n = 1
-            while (m < row && n < column) {
-                var ele = shape[m][n]
-                if (ele != "a" && ele != "e" && ele != "i" && ele != "o" && ele != "u") {
+                if(vr_sum==val){
+                    vr_sum=0;
                     count++
                 }
-                m++
-                n++
+                if(di_sum==val){
+                    di_sum=0;
+                    count++
+                }
             }
-            console.log(count)
-        } else {
-            console.log(-1)
+            // sum=L[i][j+0]+L[i][j+1]+L[i][j+2]
+            // cl_sum=L[j+0][i]+L[j+1][i]+L[j+2][i]
+            // // console.log(di_sum);
+            // if(sum==val){
+            //     sum=0
+            //    console.log(L[i][j+0],L[i][j+1],L[i][j+2]); 
+            //     console.log("hello");
+            //     count++
+            // }
+            
+            // if(cl_sum==val){
+            //     cl_sum=0
+            //     console.log(L[j+0][i],L[j+1][i],L[j+2][i]);
+            //     console.log("hey");
+            //     count++
+            // }
+            // if(di_sum==val){
+            //     di_sum=0
+            //     // console.log("wow");
+            //     count++
+            // }
+            sum=0
+            cl_sum=0
         }
-    }
-}
-
-
-function alternate_sum(num_arr) {
-    var sum = 0
-    for (var i = 0; i < num_arr.length; i = i + 2) {
-        sum = sum + num_arr[i]
-    }
-    return sum
+        }
+    console.log(count);
 }
 
 process.stdin.resume();

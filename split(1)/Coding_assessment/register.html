@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="input">
+        <form action="">
+            <label for="">MAIL ID</label>
+            <input type="email" id="email">
+            <label for="">Password</label>
+            <input type="password" name="" id="password">
+            <input type="submit" id="submit">
+        </form>
+        <h1 id="h1"></h1>
+    </div>
+    <div id="login">
+        <a href="login.html">GO to LOGIN PAGE</a>
+    </div>
+    
+</body>
+<script>
+
+    var submit=document.getElementById("submit")
+    var email=document.getElementById("email")
+    var password=document.getElementById("password")
+    var h1=document.getElementById("h1")
+    function call(){
+
+        var Detail= function (mail, password){
+            this.email=mail;
+            this.password=password
+        }
+        event.preventDefault()
+        localStorage.setItem("mail", email.value)
+        localStorage.setItem("password",password.value);
+
+         var user=new Detail(email.value,password.value)
+         user={
+                email: "eve.holt@reqres.in",
+                password: "pistol"
+            }
+        //  console.log(user);
+         var api = JSON.stringify(user)
+
+        console.log(api);
+         var xhr = new XMLHttpRequest
+
+         xhr.open("POST","https://reqres.in/api/register")
+        xhr.setRequestHeader('Content-Type', 'application/json;charset=utf-8'); //additional information-good practise
+         xhr.send(api)
+         
+             var y;
+         xhr.onload=function(){
+             y=xhr.response
+             console.log(y);
+             y=JSON.parse(y)
+             console.log(y);
+            h1.innerHTML=y.id
+             console.log(xhr.status);
+         }
+    }
+    submit.onclick=call
+</script>
+</html>

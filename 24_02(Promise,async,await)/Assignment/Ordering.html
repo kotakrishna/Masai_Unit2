@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordering System</title>
+    <style>
+        body{
+            width: 1490px;
+            height: auto;
+        }
+        nav{
+            background-color: rgb(255, 196, 107);
+            display: flex;
+            color: rgb(240, 240, 123);
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+        img{
+            width: 150px;
+        }
+        h1{
+            /* text-align: center; */
+            align-items: center;
+            margin: 10px auto;
+        }
+        #orderId{
+            float: right;
+            color: black;
+        }
+        .output{
+            /* display: none; */
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            margin: 150px;
+        }
+        
+        .for_opimg{
+            src: url("https://image.shutterstock.com/image-photo/minsk-belarus-may-6-2018-600w-1086927731.jpg");
+        }
+        #img{
+            width: 550px;
+            margin-top: 5%;
+        }
+        #button{
+            margin: 5% 50%;
+            align-self:center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://image.shutterstock.com/image-photo/bangkok-thailand-february-14-2019-260nw-1313124185.jpg" alt="" >
+        <h1>McDonalds</h1>
+        <div>
+            <h2 >Order ID: <span id="orderId"></span></h2>
+        </div>
+    </nav>
+   
+    
+    <div id="output">
+        <img id="img" style="margin-left: 35%;" src="" alt="">
+    </div>
+    <div>
+        <button id="button">Order Food</button>
+    </div>
+    
+    <script src="OrderingSystem.js"></script>
+</body>
+</html>

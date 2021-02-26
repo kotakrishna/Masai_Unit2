@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <label for="">Enter MAil</label>
+        <input type="email" name="" id="email">
+        <label for="">Enter password</label>
+        <input type="password" name="" id="password">
+        <input type="submit" id="submit">
+    </form>
+    <h1 id="responce"></h1>
+</body>
+<script>
+    var mail=document.getElementById("email")
+    var password=document.getElementById("password")
+    var h1=document.getElementById("responce")
+    var Details = function( email, password){
+        this.mail=email;
+        this.password=password;
+    }
+    var submit=document.getElementById("submit")
+
+    var user=new Details(mail,password)
+
+
+    var call = function (){
+        event.preventDefault()
+        user=JSON.stringify(user)
+
+        console.log("hello");
+    var xhr= new XMLHttpRequest
+
+    xhr.open("POST","https://reqres.in/api/login"+user)
+
+    xhr.setRequestHeader('Content-Type', 'application/json;charset=utf-8'); //additional information-good practise
+    xhr.send()
+
+
+    xhr.onload=function(){
+        var y=xhr.response
+        console.log(xhr.status);
+        console.log(y);
+    }
+    }
+    
+    submit.onclick=call
+</script>
+</html>
